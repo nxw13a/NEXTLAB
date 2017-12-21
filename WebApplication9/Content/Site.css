@@ -1,14 +1,16 @@
 ﻿/* Move down content because we have a fixed navbar that is 50px tall */
 body {
-    padding-top: 50px;
+    padding-top: 100px;
     padding-bottom: 20px;
+
 }
 
 /* Wrapping element */
 /* Set some basic padding to keep content from hitting the edges */
 .body-content {
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
+  
 }
 
 /* Set widths on the form inputs since otherwise they're 100% wide */
@@ -19,6 +21,15 @@ textarea {
 }
 
 
+/* Set margin for the box when toggle */
+.navbar-toggle{
+    margin-top: 30px;
+}
+
+/* Set margin for the navigation text*/
+.nav.navbar-nav.navbar-right{
+    margin-top: 25px;
+}
 /* Responsive: Portrait tablets and up */
 @media screen and (min-width: 768px) {
     .jumbotron {
@@ -29,3 +40,4 @@ textarea {
         padding: 0;
     }
 }
+

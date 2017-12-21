@@ -4144,6 +4144,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
 
 .container > .navbar-header,
 .container > .navbar-collapse {
+  
   margin-right: -15px;
   margin-left: -15px;
 }
@@ -4516,16 +4517,16 @@ textarea.input-group-sm > .input-group-btn > .btn {
 }
 
 .navbar-inverse .navbar-text {
-  color: #999999;
+  color: #ffffff;
 }
 
 .navbar-inverse .navbar-nav > li > a {
-  color: #999999;
+  color: #ffffff;
 }
 
 .navbar-inverse .navbar-nav > li > a:hover,
 .navbar-inverse .navbar-nav > li > a:focus {
-  color: #ffffff;
+  color: rgb(123,164,221);
   background-color: transparent;
 }
 
@@ -4558,7 +4559,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
 
 .navbar-inverse .navbar-collapse,
 .navbar-inverse .navbar-form {
-  border-color: #101010;
+  border-color: #ffffff;
 }
 
 .navbar-inverse .navbar-nav > .open > a,
@@ -4948,6 +4949,8 @@ a.list-group-item.active > .badge,
 
 .container .jumbotron {
   border-radius: 6px;
+    height: 187px;
+    width: 802px;
 }
 
 @media screen and (min-width: 768px) {

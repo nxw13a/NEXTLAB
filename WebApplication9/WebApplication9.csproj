@@ -126,12 +126,43 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="aaron_new.jpg" />
+    <Content Include="aaron_r.jpg" />
+    <Content Include="aaron_robison.aspx" />
     <Content Include="About.aspx" />
+    <Content Include="aboutREAC.aspx" />
+    <Content Include="ACUlogo.png" />
+    <Content Include="bennet.jpg" />
+    <Content Include="bennetcrop.jpg" />
+    <Content Include="BenREAC.aspx" />
+    <Content Include="blogo.ico" />
+    <Content Include="bradley_mitchell.aspx" />
+    <Content Include="brad_m.png" />
+    <Content Include="caleb_h.png" />
+    <Content Include="caleb_hicks.aspx" />
+    <Content Include="Calender.png" />
+    <Content Include="Characteristic.aspx" />
+    <Content Include="charles_i.png" />
+    <Content Include="charles_ivey.aspx" />
+    <Content Include="code.html" />
+    <Content Include="Content\code_files\csss_engine1\cs-ctrl-basic.svg" />
+    <Content Include="Content\code_files\csss_engine1\ie.css" />
+    <Content Include="Content\code_files\csss_engine1\ie.js" />
+    <Content Include="Content\code_files\csss_engine1\style.css" />
+    <Content Include="Content\code_files\csss_images1\bennetcrop.jpg" />
+    <Content Include="Content\code_files\csss_images1\group.jpg" />
+    <Content Include="Content\code_files\csss_images1\towell.jpg" />
+    <Content Include="Content\code_files\csss_tooltips1\bennetcrop.jpg" />
+    <Content Include="Content\code_files\csss_tooltips1\group.jpg" />
+    <Content Include="Content\code_files\csss_tooltips1\towell.jpg" />
     <Content Include="Contact.aspx" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\Site.css" />
+    <Content Include="css\style.css" />
     <Content Include="Default.aspx" />
+    <Content Include="download.jpg" />
+    <Content Include="example.html" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
@@ -141,7 +172,53 @@
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <Content Include="group.jpg" />
+    <Content Include="groupPIC2.jpg" />
+    <Content Include="imageslidermaker\README.txt" />
+    <Content Include="Instrumentation.aspx" />
+    <Content Include="ism\css\my-slider.css" />
+    <Content Include="ism\image\slides\_u\1502406699466_484677.jpg" />
+    <Content Include="ism\image\slides\_u\1502406801402_470362.jpg" />
+    <Content Include="ism\image\slides\_u\1502406998258_330057.jpg" />
+    <Content Include="ism\js\ism-2.2.min.js" />
+    <Content Include="js\index.js" />
+    <Content Include="kim_p.png" />
+    <Content Include="kim_pamplin.aspx" />
+    <Content Include="linkin.png" />
+    <Content Include="logo.ico" />
+    <Content Include="logoACU.png" />
+    <Content Include="logo_newtag.png" />
+    <Content Include="logo_tagline.ico" />
+    <Content Include="main_pic.JPG" />
+    <Content Include="MediaCover.aspx" />
+    <Content Include="MSTL.aspx" />
+    <Content Include="Nitrate_ter.jpg" />
+    <Content Include="olivia_t.aspx" />
+    <Content Include="olivia_t.png" />
+    <Content Include="Related_sites.aspx" />
+    <Content Include="rich_j.png" />
+    <Content Include="rich_jinkerson.aspx" />
+    <Content Include="rusty_t.jpg" />
+    <Content Include="rusty_towell.aspx" />
+    <Content Include="tim_h.jpg" />
+    <Content Include="tim_head.aspx" />
+    <Content Include="tony_h.png" />
+    <Content Include="tony_hill.aspx" />
+    <Content Include="Towell.jpg" />
+    <Content Include="valleys.png" />
+    <Content Include="ViewSwitcher.ascx" />
+    <Content Include="WHYACU.aspx" />
+    <Content Include="Content\code_files\csss_engine1\cs-ctrl-basic.eot" />
+    <Content Include="Content\code_files\csss_engine1\cs-ctrl-basic.ttf" />
+    <Content Include="Content\code_files\csss_engine1\cs-ctrl-basic.woff" />
+    <None Include="Properties\PublishProfiles\NEXTLAB-TEST - Web Deploy.pubxml">
+      <SubType>Designer</SubType>
+    </None>
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
+    <Content Include="History.aspx" />
+    <Content Include="Members.aspx" />
+    <Content Include="News.aspx" />
+    <Content Include="Research.aspx" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
@@ -171,12 +248,24 @@
     <Content Include="Scripts\WebForms\WebParts.js" />
     <Content Include="Scripts\WebForms\WebUIValidation.js" />
     <Content Include="Site.Master" />
-    <Content Include="ViewSwitcher.ascx" />
     <Content Include="Web.config" />
     <Content Include="Bundle.config" />
-    <Content Include="Site.Mobile.Master" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="aaron_robison.aspx.cs">
+      <DependentUpon>aaron_robison.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="aaron_robison.aspx.designer.cs">
+      <DependentUpon>aaron_robison.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="aboutREAC.aspx.cs">
+      <DependentUpon>aboutREAC.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="aboutREAC.aspx.designer.cs">
+      <DependentUpon>aboutREAC.aspx</DependentUpon>
+    </Compile>
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="About.aspx.cs">
       <DependentUpon>About.aspx</DependentUpon>
@@ -186,6 +275,41 @@
       <DependentUpon>About.aspx</DependentUpon>
     </Compile>
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="BenREAC.aspx.cs">
+      <DependentUpon>BenREAC.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BenREAC.aspx.designer.cs">
+      <DependentUpon>BenREAC.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="bradley_mitchell.aspx.cs">
+      <DependentUpon>bradley_mitchell.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="bradley_mitchell.aspx.designer.cs">
+      <DependentUpon>bradley_mitchell.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="caleb_hicks.aspx.cs">
+      <DependentUpon>caleb_hicks.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="caleb_hicks.aspx.designer.cs">
+      <DependentUpon>caleb_hicks.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Characteristic.aspx.cs">
+      <DependentUpon>Characteristic.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Characteristic.aspx.designer.cs">
+      <DependentUpon>Characteristic.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="charles_ivey.aspx.cs">
+      <DependentUpon>charles_ivey.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="charles_ivey.aspx.designer.cs">
+      <DependentUpon>charles_ivey.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Contact.aspx.cs">
       <DependentUpon>Contact.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -203,7 +327,91 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="History.aspx.cs">
+      <DependentUpon>History.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="History.aspx.designer.cs">
+      <DependentUpon>History.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Instrumentation.aspx.cs">
+      <DependentUpon>Instrumentation.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Instrumentation.aspx.designer.cs">
+      <DependentUpon>Instrumentation.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="kim_pamplin.aspx.cs">
+      <DependentUpon>kim_pamplin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="kim_pamplin.aspx.designer.cs">
+      <DependentUpon>kim_pamplin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MediaCover.aspx.cs">
+      <DependentUpon>MediaCover.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MediaCover.aspx.designer.cs">
+      <DependentUpon>MediaCover.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Members.aspx.cs">
+      <DependentUpon>Members.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Members.aspx.designer.cs">
+      <DependentUpon>Members.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MSTL.aspx.cs">
+      <DependentUpon>MSTL.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MSTL.aspx.designer.cs">
+      <DependentUpon>MSTL.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="News.aspx.cs">
+      <DependentUpon>News.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="News.aspx.designer.cs">
+      <DependentUpon>News.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="olivia_t.aspx.cs">
+      <DependentUpon>olivia_t.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="olivia_t.aspx.designer.cs">
+      <DependentUpon>olivia_t.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Related_sites.aspx.cs">
+      <DependentUpon>Related_sites.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Related_sites.aspx.designer.cs">
+      <DependentUpon>Related_sites.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Research.aspx.cs">
+      <DependentUpon>Research.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Research.aspx.designer.cs">
+      <DependentUpon>Research.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="rich_jinkerson.aspx.cs">
+      <DependentUpon>rich_jinkerson.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="rich_jinkerson.aspx.designer.cs">
+      <DependentUpon>rich_jinkerson.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="rusty_towell.aspx.cs">
+      <DependentUpon>rusty_towell.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="rusty_towell.aspx.designer.cs">
+      <DependentUpon>rusty_towell.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Site.Master.cs">
       <DependentUpon>Site.Master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -213,15 +421,38 @@
     </Compile>
     <Compile Include="Site.Mobile.Master.cs">
       <DependentUpon>Site.Mobile.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Site.Mobile.Master.designer.cs">
       <DependentUpon>Site.Mobile.Master</DependentUpon>
     </Compile>
+    <Compile Include="tim_head.aspx.cs">
+      <DependentUpon>tim_head.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="tim_head.aspx.designer.cs">
+      <DependentUpon>tim_head.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="tony_hill.aspx.cs">
+      <DependentUpon>tony_hill.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="tony_hill.aspx.designer.cs">
+      <DependentUpon>tony_hill.aspx</DependentUpon>
+    </Compile>
     <Compile Include="ViewSwitcher.ascx.cs">
       <DependentUpon>ViewSwitcher.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="ViewSwitcher.ascx.designer.cs">
       <DependentUpon>ViewSwitcher.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="WHYACU.aspx.cs">
+      <DependentUpon>WHYACU.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WHYACU.aspx.designer.cs">
+      <DependentUpon>WHYACU.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
@@ -230,6 +461,8 @@
   <ItemGroup>
     <Content Include="packages.config" />
     <Content Include="Scripts\jquery-1.10.2.min.map" />
+    <Content Include="scss\style.scss" />
+    <Content Include="Site.Mobile.Master" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
