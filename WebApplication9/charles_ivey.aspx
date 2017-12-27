@@ -21,7 +21,7 @@ ul.sidenav {
     margin: 0;
     padding: 0;
     width: 25%;
-    background-color: lightblue;
+    background-color: rgb(225,225,225);
     position: relative;
     height: 100%;
     overflow: auto;
@@ -36,7 +36,7 @@ ul.sidenav li a {
 }
  
 ul.sidenav li a.active {
-    background-color: #0f37ad;
+    background-color: rgb(98,99,102);
     color: white;
 }
 
@@ -151,73 +151,71 @@ div.content {
        }
 }
 </style>
-  <h1 style="color: white; text-align: center; background-color:darkblue; border-radius: 10px; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">Faculty/Staff</h1>
+  <h1 style="color: white; text-align: center; background-color:rgb(98,99,102); border-radius: 10px; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">Faculty/Staff</h1>
 <ul class="sidenav">
   <li><a href="About">Mission</a></li>
   <li><a href="History">History</a></li>
     <li><a href="WHYACU">Why ACU?</a></li>
   <li><a  href="Members">Members</a></li>
   <!--<li><a href="#contact">Student</a></li>-->
-  <i id="quote" style="font-size: 17px; color: darkblue; text-align: center; margin-top: 5px; margin-left: 10px; text-align: center;">"Finding global solutions to the world’s most critical needs - NEXT"</i> 
+  <li><i id="quote" style="font-size: 18px;  font-weight: bold; color: rgb(98,99,102); text-align: center; margin-top: 5px; margin-left: 10px; text-align: center;">"Finding global solutions to the world’s most critical needs" </i></li>
 </ul>
-<aside id="sideCOL" class="leftColumn"  style="background-color: #3b0066; border-radius: 10px; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); max-width: 290px; margin-top: 20px;">
-               <h3 style="color: darkorange; text-align: left; margin-left: 10px;  font-size: 15px;">&rArr; MEDIA COVERAGE</h3>
+<aside id="sideCOL" class="leftColumn"  style="background-color: rgb(98,99,102); border-radius: 10px; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); max-width: 290px; margin-top: 20px;">
+             <h3 style="color: white; text-align: left; margin-left: 10px;  font-size: 20px; font-weight: bold;">&rArr; MEDIA COVERAGE</h3>
                <ul class="home-side-touts" style="color: white; text-align: left; margin-right: 10px;">
-                   <li><a  href="https://www.youtube.com/watch?v=YvHqLEqflws" target="_blank" style="color: aqua;">ACU is about to start researching something interesting</a></li>
-                   <p><i>Apr 25,2016</i></p>
-                   <li><a href="https://www.youtube.com/watch?v=jDqCpfVwdP4&t=2s" style="color: aqua;" target="_blank">Why making energy from dirt might save the world -- Rusty Towell </a></li>
-                   <p><i>May 11, 2015</i></p>
+                   <li><a  href="https://www.youtube.com/watch?v=YvHqLEqflws" target="_blank" style="color: rgb(123,164,221);">ACU is about to start researching something interesting</a></li>
+                   <p style="opacity: 0.5; font-size: smaller"<i>Apr 25,2016</i></p>
+                   <li><a href="https://www.youtube.com/watch?v=jDqCpfVwdP4&t=2s" style="color: rgb(123,164,221);" target="_blank">Why making energy from dirt might save the world -- Rusty Towell </a></li>
+                   <p style="opacity: 0.5; font-size: smaller"><i>May 11, 2015</i></p>
                </ul>
                <hr />
-               <h3 style="color: darkorange; text-align: left; margin-left: 10px;  font-size: 16px;">&rArr; NEXT UPDATES</h3>
+               <h3 style="color: white; text-align: left; margin-left: 10px;  font-size: 20px; font-weight: bold;">&rArr; NEXT UPDATES</h3>
                 <ul class="home-side-touts" style="color: white; text-align: left; margin-right: 10px;">
-                   <li><a href="MSTL" style="color: aqua;" >Status of Molten Salt Test Loop (MSTL) Assembly and Testing</a></li>
-                   <p><i>Sept 13,2017</i></p>
-                   <li><a href="Characteristic" style="color: aqua;">Characterization of Salt Mixtures</a></li>
-                   <p><i>July 2017</i></p>
+                   <li><a href="MSTL" style="color: rgb(123,164,221);" >Status of Molten Salt Test Loop (MSTL) Assembly and Testing</a></li>
+                   <p style="opacity: 0.5; font-size: smaller"><i>Sept 13,2017</i></p>
+                   <li><a href="Characteristic" style="color: rgb(123,164,221);">Characterization of Salt Mixtures</a></li>
+                   <p style="opacity: 0.5; font-size: smaller"><i>July 2017</i></p>
                </ul>
                 <hr />
-               <h3 style="color: darkorange; text-align: left; margin-left: 10px;  font-size: 16px;">&rArr; OUR CAMPUS</h3>
+               <h3 style="color: white; text-align: left; margin-left: 10px;  font-size: 20px; font-weight: bold;">&rArr; OUR CAMPUS</h3>
                <a href="http://www.acu.edu" target="_blank"><img src="ACUlogo.png" height=50% width=50% style="display: block; margin: 0 auto;"/></a>
-              
-
 </aside>
 
-<div class="content" style="background-color: #3b0066; border-radius: 10px; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); ">
-     <h2 style="color: orange; text-align: center; ">Dr. Charles Ivey </h2>
+<div class="content" style="background-color: rgb(225,225,225); border-radius: 10px; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); ">
+     <h2 style="color: rgb(98,99,102); font-weight: bold; text-align: center; ">Dr. Charles Ivey </h2>
      <div id="imgcolumn""><img src="charles_i.png" style="display: block; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); max-width:100%; max-height:100%; margin: 0 auto;"/></div>
-     <div id="textcolumn" style="color: white; ">
+     <div id="textcolumn" style="color: black; ">
 
         </div> 
 
-    <div id="topcontent" style="color: white;"">
+    <div id="topcontent" style="color: black;"">
         <div id="intro">
              <p >
                 <i>Retired Professor of Physics Department</i>
              </p>
              <p>
-                 Email: <a style="color: aqua;" href="mailto:charlesivey@suddenlink.net">charlesivey@suddenlink.net</a>
+                 Email: <a style="color: rgb(123,164,221); font-weight: bold;" href="mailto:charlesivey@suddenlink.net">charlesivey@suddenlink.net</a>
              </p>
           </div>
-         <h3 style="color: orange">Biography: </h3>
+         <h3 style="color: rgb(98,99,102); font-weight: bold;">Biography: </h3>
          <p>
              <i>Ivey entered the energy business in the early 1980s, serving as vice president of research and development of GeoNuclear Consultants Inc.; vice president and technical director of LaJet Geophysical; president of Russell Petroleum; CEO of Dwight’s Energy Data Inc.; and president and co-founder of SoftSearch Inc., a provider of petroleum analysis software systems for energy companies and financial institutions that later expanded to provide information and analysis to the medical community for the American Medical Association. Ivey later led the merger of Petroleum Information and Dwight’s Energy Data to provide the largest energy information and economic evaluation software company in the world. He also served as CEO of Tobin International, the leading energy mapping company, and many other subsidiaries and acquisitions in several countries. </i>
          </p>
  
-          <h3 style="color: orange;">Questions with Dr. Charles Ivey </h3>
-        <p style="color: orange;">
+          <h3 style="color: rgb(98,99,102); font-weight: bold;">Questions with Dr. Charles Ivey </h3>
+        <p style="color: rgb(123,164,221);  font-weight: bold;">
             You earned undergraduate and graduate degrees in chemistry. What made you focus later on physics?
         </p>
         <p>
             <i>When I arrived at ACU as a freshman, there was not a robust physics program. I majored in chemistry and minored in mathematics because they were stronger programs – but not what I really wanted to do. My graduate studies at The University of Texas steered me into chemical physics. Chemistry is a great field of study, but physics is where I found my calling, and all my research was done in the laboratory of the chair of the physics department. Dr. Mike Davis was an inspirational professor who oversaw my research in electron diffraction.</i>
         </p>
-        <p style="color: orange;">
+        <p style="color: rgb(123,164,221);  font-weight: bold;">
             What are some of the lessons you learned working outside academia in your career?
         </p>
         <p>
             <i>The ability to continually learn new fields was possible because physics, mathematics and chemical physics, combined with computer science, enable you to do just about anything of a technical nature. I am proud of the fact that my companies employed thousands of people. Imagine the satisfaction of creating careers for so many because of ideas that came out of my head. I loved building, acquiring and running companies because when a company performs better, it is great for all the employees, managers and investors. I always heard from customers and competitors that our company culture was the best in the industry. I just kept doing what I was doing when a professor at ACU, trying to empower people to accomplish more. It is a simple concept of great power.</i>
         </p>
-        <p style="color: orange;">
+        <p style="color: rgb(123,164,221);  font-weight: bold;">
             Why is it important for physics and engineering programs to be close partners at ACU?
         </p>
         <p>

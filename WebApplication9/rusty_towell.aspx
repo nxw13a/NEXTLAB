@@ -16,12 +16,13 @@
     padding-bottom: 30px;
 }
 
+
 ul.sidenav {
     list-style-type: none;
     margin: 0;
     padding: 0;
     width: 25%;
-    background-color: lightblue;
+    background-color: rgb(225,225,225);
     position: relative;
     height: 100%;
     overflow: auto;
@@ -36,7 +37,7 @@ ul.sidenav li a {
 }
  
 ul.sidenav li a.active {
-    background-color: #0f37ad;
+    background-color: rgb(98,99,102);
     color: white;
 }
 
@@ -151,46 +152,44 @@ div.content {
        }
 }
 </style>
-  <h1 style="color: white; text-align: center; background-color:darkblue; border-radius: 10px; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">Faculty/Staff</h1>
+  <h1 style="color: white; text-align: center; background-color:rgb(98,99,102); border-radius: 10px; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">Faculty/Staff</h1>
 <ul class="sidenav">
   <li><a href="About">Mission</a></li>
   <li><a href="History">History</a></li>
     <li><a href="WHYACU">Why ACU?</a></li>
   <li><a  href="Members">Members</a></li>
   <!--<li><a href="#contact">Student</a></li>-->
-  <i id="quote" style="font-size: 17px; color: darkblue; text-align: center; margin-top: 5px; margin-left: 10px; text-align: center;">"Finding global solutions to the world’s most critical needs - NEXT"</i> 
+   <li><i id="quote" style="font-size: 18px;  font-weight: bold; color: rgb(98,99,102); text-align: center; margin-top: 5px; margin-left: 10px; text-align: center;">"Finding global solutions to the world’s most critical needs" </i></li>
 </ul>
-<aside id="sideCOL" class="leftColumn"  style="background-color: #3b0066; border-radius: 10px; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); max-width: 290px; margin-top: 20px;">
-               <h3 style="color: darkorange; text-align: left; margin-left: 10px;  font-size: 15px;">&rArr; MEDIA COVERAGE</h3>
+<aside id="sideCOL" class="leftColumn"  style="background-color: rgb(98,99,102); border-radius: 10px; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); max-width: 290px; margin-top: 20px;">
+             <h3 style="color: white; text-align: left; margin-left: 10px;  font-size: 20px; font-weight: bold;">&rArr; MEDIA COVERAGE</h3>
                <ul class="home-side-touts" style="color: white; text-align: left; margin-right: 10px;">
-                   <li><a  href="https://www.youtube.com/watch?v=YvHqLEqflws" target="_blank" style="color: aqua;">ACU is about to start researching something interesting</a></li>
-                   <p><i>Apr 25,2016</i></p>
-                   <li><a href="https://www.youtube.com/watch?v=jDqCpfVwdP4&t=2s" style="color: aqua;" target="_blank">Why making energy from dirt might save the world -- Rusty Towell </a></li>
-                   <p><i>May 11, 2015</i></p>
+                   <li><a  href="https://www.youtube.com/watch?v=YvHqLEqflws" target="_blank" style="color: rgb(123,164,221);">ACU is about to start researching something interesting</a></li>
+                   <p style="opacity: 0.5; font-size: smaller"<i>Apr 25,2016</i></p>
+                   <li><a href="https://www.youtube.com/watch?v=jDqCpfVwdP4&t=2s" style="color: rgb(123,164,221);" target="_blank">Why making energy from dirt might save the world -- Rusty Towell </a></li>
+                   <p style="opacity: 0.5; font-size: smaller"><i>May 11, 2015</i></p>
                </ul>
                <hr />
-               <h3 style="color: darkorange; text-align: left; margin-left: 10px;  font-size: 16px;">&rArr; NEXT UPDATES</h3>
+               <h3 style="color: white; text-align: left; margin-left: 10px;  font-size: 20px; font-weight: bold;">&rArr; NEXT UPDATES</h3>
                 <ul class="home-side-touts" style="color: white; text-align: left; margin-right: 10px;">
-                   <li><a href="MSTL" style="color: aqua;" >Status of Molten Salt Test Loop (MSTL) Assembly and Testing</a></li>
-                   <p><i>Sept 13,2017</i></p>
-                   <li><a href="Characteristic" style="color: aqua;">Characterization of Salt Mixtures</a></li>
-                   <p><i>July 2017</i></p>
+                   <li><a href="MSTL" style="color: rgb(123,164,221);" >Status of Molten Salt Test Loop (MSTL) Assembly and Testing</a></li>
+                   <p style="opacity: 0.5; font-size: smaller"><i>Sept 13,2017</i></p>
+                   <li><a href="Characteristic" style="color: rgb(123,164,221);">Characterization of Salt Mixtures</a></li>
+                   <p style="opacity: 0.5; font-size: smaller"><i>July 2017</i></p>
                </ul>
                 <hr />
-               <h3 style="color: darkorange; text-align: left; margin-left: 10px;  font-size: 16px;">&rArr; OUR CAMPUS</h3>
+               <h3 style="color: white; text-align: left; margin-left: 10px;  font-size: 20px; font-weight: bold;">&rArr; OUR CAMPUS</h3>
                <a href="http://www.acu.edu" target="_blank"><img src="ACUlogo.png" height=50% width=50% style="display: block; margin: 0 auto;"/></a>
-              
-
 </aside>
 
-<div class="content" style="background-color: #3b0066; border-radius: 10px; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); ">
-     <h2 style="color: orange; text-align: center; ">Dr. Rusty Towell </h2>
+<div class="content" style="background-color:  rgb(225,225,225); border-radius: 10px; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); ">
+     <h2 style="color: rgb(98,99,102); font-weight: bold; text-align: center; ">Dr. Rusty Towell </h2>
      <div id="imgcolumn""><img src="rusty_t.jpg" style="display: block; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); max-width:100%; max-height:100%; margin: 0 auto;"/></div>
-     <div id="textcolumn" style="color: white; ">
+     <div id="textcolumn" style="color: black; ">
 
         </div> 
 
-    <div id="topcontent" style="color: white;"">
+    <div id="topcontent" style="color: black;"">
         <div id="intro">
              <p>
                  <i>Director of NEXT Lab, </i>
@@ -199,17 +198,17 @@ div.content {
                 <i>Professor Department of Engineering and Physics</i>
              </p>
              <p>
-                 Email: <a style="color: aqua;" href="mailto:rusty.towell@acu.edu">rusty.towell@acu.edu</a>
+                 Email: <a style="color: rgb(123,164,221); font-weight: bold;" href="mailto:rusty.towell@acu.edu">rusty.towell@acu.edu</a>
              </p>
           </div>
-         <h3 style="color: orange;">Education: </h3>
+         <h3 style="color: rgb(98,99,102); font-weight: bold;">Education: </h3>
          <p>
              <i>- PhD, University of Texas at Austin, Physics, 1999 </i>
          </p>
          <p>
              <i>- BS, Abilene Christian University, 1990</i>
          </p>
-         <h3 style="color: orange;">Honors & Achievements: </h3>
+         <h3 style="color: rgb(98,99,102); font-weight: bold;">Honors & Achievements: </h3>
          <p>
              <i>- CAS Professional Service Award , ACU CAS, 2006</i>
          </p>
@@ -225,11 +224,11 @@ div.content {
              <p>
                  <i>- PHENIX Team Leader Award, PHENIX Collaboration, 2004</i>
              </p>
-          <h3 style="color: orange;">Expertise and Repertoire: </h3>
+          <h3 style="color: rgb(98,99,102); font-weight: bold;">Expertise and Repertoire: </h3>
         <p>
             <i>- Nuclear Reactors, Nuclear Physics, Energy and Environment, Particle Detector Development</i>
         </p>
-        <h3 style="color: orange;">Scholarly Presentations: </h3>
+        <h3 style="color: rgb(98,99,102); font-weight: bold;">Scholarly Presentations: </h3>
         <p>
             <i>- Towell, R. (2016) Renewing Liquid Fueled Molten Salt Reactor Research and Development , American Physical Society Division of Nuclear Physics, Vancouver Canada, 2016</i>
         </p>
@@ -245,11 +244,11 @@ div.content {
         <p>
             <i>- Towell, R. (2016) Advancing Molten Salt Reactor Technology to meet the Needs of the World, Christian Scholars' Conference 2016, Lipscomb University, Nashville, TN, 2016</i>
         </p>
-        <h3 style="color: orange;">Professional Service: </h3>
+        <h3 style="color: rgb(98,99,102); font-weight: bold;">Professional Service: </h3>
         <p>
             <i>- Thomas Jefferson National Accelerator Facility Directors Review Committee, Task Force Member, 2015 - 2015</i>
         </p>
-        <h3 style="color: orange;">Community Service: </h3>
+        <h3 style="color: rgb(98,99,102); font-weight: bold;">Community Service: </h3>
         <p>
             <i>- West Texas Science Center , Board Member, 2015 - present</i>
         </p>
