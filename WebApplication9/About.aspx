@@ -4,12 +4,14 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <style>
 
-
+*{
+    box-sizing: border-box;
+}
 ul.sidenav {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    width: 25%;
+    width: auto;
     background-color: rgb(225,225,225);
     position: relative;
     height: 100%;
@@ -35,55 +37,45 @@ ul.sidenav li a:hover:not(.active) {
 }
 
 div.content {
-    margin-left: 26%;
+   
     padding: 1px 16px;
-    margin-top: -870px;
+
+}
+.column{
+    float: left;
+    width: 70%;
+   padding: 0.5em;
+   
+}
+.column1{
+    float: left;
+    width: 30%;
+    padding: 0.5em;
+    
+}
+#sideCOL{
+    margin-top: 10px;
+    padding: 1px 16px 16px;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
 }
 
 
-@media screen and (max-width: 1199px) and (min-width: 991.9px) {
 
-    div.content {margin-top: -904px;}
-    #sideCOL{
-        width: 240px;
-    }
 
-}
-@media screen and (max-width: 991.8px) and (min-width: 900px) {
-
-    div.content {margin-top: -1013px;}
-    #sideCOL{
-        width: 190px;
-    }
-
-}
-
-@media screen and (max-width: 900px) {
-    ul.sidenav {
-        width: 100%;
-        height: auto;
-        position: relative;
-    }
-    ul.sidenav li a {
-        float: left;
-        padding: 15px;
-    }
-    div.content {margin-left: 0; margin-top: 10px;}
-    #quote{
-        display: none;
-    }
-    #quote1{
-        display: none;
-    }
-    #sideCOL{
-        display: none;
-    }
-}
-
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 750px) {
     ul.sidenav li a {
         text-align: center;
         float: none;
+    }
+    .column {
+        width: 100%;
+    }
+    .column1 {
+        width: 100%;
     }
     #quote{
         display: none;
@@ -96,7 +88,9 @@ div.content {
     }
 }
 </style>
-  <h1 style="color: white; text-align: center; background-color:rgb(98,99,102); border-radius: 10px; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">About Us</h1>
+  <h1 style="color: white; text-align: center; width: 100%; background-color:rgb(98,99,102); border-radius: 10px;  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">About Us</h1>
+<div class="row">
+<div class="column1">
 <ul class="sidenav">
   <li><a class="active" href="About">Mission</a></li>
   <li><a href="History">History</a></li>
@@ -105,7 +99,7 @@ div.content {
   <!--<li><a href="#contact">Student</a></li>-->
   <li><i id="quote" style="font-size: 18px;  font-weight: bold; color: rgb(98,99,102); text-align: center; margin-top: 5px; margin-left: 10px; text-align: center;">"Finding global solutions to the world’s most critical needs" </i></li>
 </ul>
-<aside id="sideCOL" class="leftColumn"  style="background-color: rgb(98,99,102); border-radius: 10px; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); max-width: 290px; margin-top: 20px;">
+<aside  id="sideCOL" style="background-color: rgb(98,99,102); border-radius: 10px; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">
              <h3 style="color: white; text-align: left; margin-left: 10px;  font-size: 20px; font-weight: bold;">&rArr; MEDIA COVERAGE</h3>
                <ul class="home-side-touts" style="color: white; text-align: left; margin-right: 10px;">
                    <li><a  href="https://www.youtube.com/watch?v=YvHqLEqflws" target="_blank" style="color: rgb(123,164,221);">ACU is about to start researching something interesting</a></li>
@@ -125,7 +119,8 @@ div.content {
                <h3 style="color: white; text-align: left; margin-left: 10px;  font-size: 20px; font-weight: bold;">&rArr; OUR CAMPUS</h3>
                <a href="http://www.acu.edu" target="_blank"><img src="ACUlogo.png" height=50% width=50% style="display: block; margin: 0 auto;"/></a>
 </aside>
-
+</div>
+<div class="column">
 <div class="content" style="background-color: rgb(225,225,225); border-radius: 10px; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); ">
   <p style="color: black; margin-top: 20px;">Energy fuels the future. The ultimate goal of this work is to advance Liquid Fueled Molten Salt Reactors (LFMSR) to address the world’s need for clean, inexpensive and safe energy, water and medical isotopes to treat cancer. This specific research project will build a fluid simulator on the Abilene Christian University campus in Abilene, Texas, to help advance the reactor design and allow for regulatory licensing of a future research and test reactor. Having an on-site test facility will provide unprecedented access for students and faculty to collaborate on cutting-edge research to solve one of the world’s most pressing problems: the need for clean, safe and affordable energy.</p>
   <h2 style="color: rgb(98,99,102); font-weight: bold; text-align: center;">Next Research Goals</h2>
@@ -142,6 +137,6 @@ div.content {
     <i style="text-align: center; color: rgb(123,164,221); font-weight: bold; ">BUILD A FULL-SIZED, NON-NUCLEAR MOLTEN SALT LOOP.</i>
     <p style="color: black;  margin-top: 10px;">We will build a full-sized, non-nuclear molten salt loop matching the design of the Molten Salt Research and Test Reactor (MSRTRx). This step will be a critical part of the process to gain approval from the Nuclear Regulatory Commission to license the construction of a MSRTRx. During this phase, it is expected that NEXT will partner closely with nuclear engineers from other major research universities and national labs in the design of the MSRTRx.</p>
 </div>
-
-
+</div>
+</div>
 </asp:Content>

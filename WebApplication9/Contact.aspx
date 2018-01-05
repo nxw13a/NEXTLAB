@@ -3,20 +3,12 @@
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
     <style>
         #map {
+
         height: 400px;
         width: 100%;
        }
         body{
-             background-image: linear-gradient( rgba(0,0,0,.5), rgba(0,0,0,.5) ), url("bennet.jpg");
              
-             max-width: 100%;
-	        height: auto;
-	        width: auto\9; /* IE8 */
-            /* Center and scale the image nicely */
-         
-            background-position: center;
-            background-repeat: no-repeat;
-            background-size: cover;
             
         }
         .alert {
@@ -94,8 +86,8 @@
 
     </style>
 <div id="home-content" class="columnsContainer">
-    <h1 id="title" style="color: white; width: auto; text-align: center; background-color: darkblue; border-radius: 10px; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);" >CONTACT US</h1>
-    <div id="LEFTCONTENT" class="leftColumn" style=" display: flex; justify-content: center; align-content:center; flex-direction: column; background-color: darkblue; border-radius: 10px; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">
+    <h1 id="title" style="color: white; width: auto; text-align: center; background-color: rgb(98,99,102); border-radius: 10px; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);" >CONTACT US</h1>
+    <div id="LEFTCONTENT" class="leftColumn" style=" display: flex; justify-content: center; align-content:center; flex-direction: column; background-color: rgb(98,99,102); border-radius: 10px; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">
               <div id="message_x" runat="server" class="alert" style="width: auto;" visible="false">
               <span class="closebtn">&times; </span> <strong style="margin-left: 10px; font-size: 10px;">Your form has encountered a problem. Please scroll down to review.</strong>
           </div>
@@ -106,7 +98,7 @@
                   <span class="closebtn">&times; </span> <strong style="margin-left: 10px; font-size: 10px;">First Name is required</strong>
               </div>
               <div class="input-group">
-              <span class="input-group-addon"><i class="glyphicon glyphicon-user" style="color: darkblue;"></i></span>
+              <span class="input-group-addon"><i class="glyphicon glyphicon-user" style="color: rgb(98,99,102);"></i></span>
               <input id="first_name" runat="server" placeholder="First Name" class="form-control"  type="text">
               </div>
         </div>
@@ -118,7 +110,7 @@
                   <span class="closebtn">&times; </span> <strong style="margin-left: 10px; font-size: 10px;">Last Name is required</strong>
               </div>
               <div class="input-group">
-              <span class="input-group-addon"><i class="glyphicon glyphicon-user" style="color: darkblue;"></i></span>
+              <span class="input-group-addon"><i class="glyphicon glyphicon-user" style="color: rgb(98,99,102);"></i></span>
               <input id="last_name" runat="server" placeholder="Last Name" class="form-control"  type="text">
               </div>
         </div>
@@ -129,7 +121,7 @@
                   <span class="closebtn">&times; </span> <strong style="margin-left: 10px; font-size: 10px;">Email is required</strong>
               </div>
             <div class="input-group">
-            <span class="input-group-addon"><i class="glyphicon glyphicon-envelope" style="color: darkblue;"></i></span>
+            <span class="input-group-addon"><i class="glyphicon glyphicon-envelope" style="color: rgb(98,99,102);"></i></span>
             <input id="email" runat="server" placeholder="E-Mail Address" class="form-control"  type="text">
             </div>
         </div>
@@ -140,7 +132,7 @@
                   <span class="closebtn">&times; </span> <strong style="margin-left: 10px; font-size: 10px;">Subject is required</strong>
               </div>
             <div class="input-group">
-            <span class="input-group-addon"><i class="glyphicon glyphicon-pencil" style="color: darkblue;"></i></span>
+            <span class="input-group-addon"><i class="glyphicon glyphicon-pencil" style="color:rgb(98,99,102);"></i></span>
             <textarea class="form-control" id="\Subj" name="Subj"  placeholder="Subject"></textarea>
           </div>
         </div>
@@ -151,23 +143,23 @@
                   <span class="closebtn">&times; </span> <strong style="margin-left: 10px; font-size: 10px;">Message is required</strong>
               </div>
             <div class="input-group">
-            <span class="input-group-addon"><i class="glyphicon glyphicon-pencil" style="color: darkblue;"></i></span>
+            <span class="input-group-addon"><i class="glyphicon glyphicon-pencil" style="color: rgb(98,99,102);"></i></span>
             <textarea class="form-control" id="Comm" name="Comm"  placeholder="Message"style="height: 200px;"></textarea>
           </div>
         </div>
         <div id="button_p">
-            <asp:Button id="Button1" BorderStyle="Solid"  style="color: white; background-color: darkblue; border-radius: 5px; width: 100px; height: 40px; margin-top: 10px;" runat="server" Text="Send" OnClick="Send_message" OnClientClick="this.disabled = true; this.value = 'Submitting...';" UseSubmitBehavior="false"/>
+            <asp:Button id="Button1" BorderStyle="Solid"  style="color: white; background-color: rgb(98,99,102); border-radius: 5px; width: 100px; height: 40px; margin-top: 10px;" runat="server" Text="Send" OnClick="Send_message" OnClientClick="this.disabled = true; this.value = 'Submitting...';" UseSubmitBehavior="false"/>
         </div>
                   <div id="message_x7" runat="server" visible="false" class="alert" style="width: auto; margin-top: 30px;">
                   <span class="closebtn">&times; </span> <strong style="margin-left: 10px; font-size: 10px;">Your form has encountered a problem. Please scroll up to review.</strong>
               </div>
     </div>
-    <aside  id="assign" class="rightColumn" style="color: white; background-color: #3b0066; border-radius: 10px; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);" >
+    <aside  id="assign" class="rightColumn" style="color: white; background-color: rgb(98,99,102); border-radius: 10px; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);" >
         <div>NEXT LAB</div>
         <div>1600 Campus Ct, </div>
         <div>Abilene, TX 79699</div>
-        <div>Email: <a href="mailto:rusty.towell@acu.edu" style="color: aqua;">rusty.towell@acu.edu</a></div>
-        <div>Tel: <a href="tel:325-674-2034" style="color: aqua;">325-674-2034</a></div>
+        <div>Email: <a href="mailto:rusty.towell@acu.edu" style="color: rgb(123,164,221); font-weight: bold;">rusty.towell@acu.edu</a></div>
+        <div>Tel: <a href="tel:325-674-2034" style="color: rgb(123,164,221); font-weight: bold;">325-674-2034</a></div>
     <div id="map" style="margin-top: 20px;"></div>
     <script>
         function initMap() {

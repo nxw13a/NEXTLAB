@@ -29,7 +29,7 @@ ul.sidenav li a.active {
 }
 
 ul.sidenav li a:hover:not(.active) {
-    background-color: #555;
+    background-color: rgb(98,99,102);
     color: white;
 }
 

@@ -68,20 +68,10 @@
             <footer>
                 <style>
 
-                    @media screen and (min-width: 47.5em ) {
-                      .leftColumn { margin-right: 19.5em; }
-
-	                  .rightColumn { position: absolute; top: 0; right: 0; width: 18.75em; }   
-                    }
-
-                    .columnsContainer{ position: relative; margin: .5em; }
-                    .leftColumn, .rightColumn {  padding: 1.25em; }
-                     { position: relative; margin: .5em; }
                 </style>
-                <div class="columnsContainer">
-                <div class="leftColumn" style="font-size: 12px; color: black;  background-color: white; width: auto; max-width: 520px;">&copy; Copyright <%: DateTime.Now.Year %> by Nuclear Energy eXperiment Testing Lab (NEXT) All Rights Reserved.</div>
 
-                </div>
+                <div style="font-size: 12px; color: black;  background-color: white; width: auto; max-width: 520px;">&copy; Copyright <%: DateTime.Now.Year %> by Nuclear Energy eXperiment Testing Lab (NEXT) All Rights Reserved.</div>
+
             </footer>
         </div>
 

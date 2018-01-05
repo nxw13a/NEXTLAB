@@ -15,18 +15,32 @@
                 
                 background: rgb(98, 99, 102); /* Fallback for older browsers without RGBA-support */
                 background: rgba(98, 99, 102, 0.8);
-                padding: 20px;
+                padding: 15px;
                 border-radius: 10px; 
                 box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
             }
-
-          
+            
+         .video{
+                    position: absolute;
+                        top: 0;
+                        left: 0;
+                        width: 95%;
+                        height: 95%;
+                    margin-left: 2.5%;
+                    margin-top: 1em;
+            }
+          .containerVid{
+              position: relative;
+                width: 100%;
+                height: 0;
+                padding-bottom: 56.25%;
+          }
             .container {
-    position: relative;
-    text-align: center;
-    color: white;
-}
+                position: relative;
+                text-align: center;
+                color: white;
+            }
         </style>
         
         <div class="container">
@@ -43,19 +57,24 @@
               .leftColumn { margin-right: 19.5em; }
              
 
-	            .rightColumn { position: absolute; top: 0; right: 0; width: 0em; }   
+	            .rightColumn { position: absolute; top: 0; right: 0; width: 18.5em; }   
 
             }
-             @media screen and (max-width: 65.5em ) {
+             @media screen and (max-width: 65.4em ) {
               #sideCol{
-                  margin-top: 0px;
+                  margin-top: 1em;
               }   
-              .video{
-                 width: auto;
-                 height: auto;
+              .TEXT2{
+                  display: none;
               }
-
+              .bottom-left{
+                  bottom: 0.5em;
+                  height: auto;
+                  width: auto;
+                  padding: 10px;
+              }
             }
+            
             .columnsContainer{ position: relative; margin: .5em; }
             .leftColumn, .rightColumn {   padding: 1.25em; }
              { position: relative; margin: .5em; }
@@ -69,34 +88,36 @@
        <div id="home-content" class="columnsContainer">
            <div class="leftColumn" style="background-color: rgb(225,225,225); border-color: rgb(98,99,102); border-radius: 10px; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); ">
 
-                <h3 style="margin-top: 0px;background-color: rgba(98,99,102,0.8); color: white; font-size: 18px;font-weight: bold; margin-left: 15px; margin-right: 5px; padding: 20px;
+                <h3 class="TEXT2" style="margin-top: 0px;background-color: rgba(98,99,102,0.8); color: white; font-size: 18px;font-weight: bold;  padding: 20px;
                 border-radius: 10px; 
                 box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">Finding <i style="color: rgb(123,164,221); font-size: x-large">global solutions</i> to the world’s most <i style="color: rgb(123,164,221); font-size: x-large">critical needs</i></h3>
-                <iframe class="video" width="560" height="315" style="margin-top: 15px; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);" src="https://www.youtube.com/embed/n-zSOfE0Ypk?rel=0&amp;showinfo=0" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
-
-                <h3 style="color: rgb(98,99,102); font-size: 22px;font-weight: bold; margin-left: 15px; margin-right: 5px;">
+               
+               <div class="containerVid">
+               <iframe class="video"  style=" box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);" src="https://www.youtube.com/embed/n-zSOfE0Ypk?rel=0&amp;showinfo=0" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+               </div>
+                <h3 style="color: rgb(98,99,102); font-size: 22px;font-weight: bold;  margin-top: 1em;">
                    The NEXT Lab mission is to provide global solutions to the world's need for: 
                </h3>
-               <ul id="mission-statement" style="color: black; text-align: left; font-size: 15px; margin-right: 5px;">
+               <ul id="mission-statement" style="color: black; text-align: left; font-size: 15px; ">
                    <li>Energy that is less expensive and safer</li>
                    <p></p>
                    <li>Water that is pure and abundant</li>
                    <p></p>
                    <li>Medical isotopes used to diagnose and treat cancer</li>
                </ul>
-               <p style="color: black; margin-left: 15px; margin-right: 5px; font-size: 15px;">by advancing the technology of molten salt reactors while educating the next generation of leaders in nuclear science and engineering.</p>
+               <p style="color: black;  font-size: 15px;">by advancing the technology of molten salt reactors while educating the next generation of leaders in nuclear science and engineering.</p>
               <hr  style="border-color: black;"/>
-               <h3 style="color: rgb(98,99,102); font-size: 22px; font-weight: bold; margin-left: 10px; margin-right: 5px; margin-top: 0px; text-align: center;">
+               <h3 style="color: rgb(98,99,102); font-size: 22px; font-weight: bold;  margin-top: 0px; text-align: center;">
                    ABOUT US
                </h3>
-               <p style="color: black; text-align: left; margin-right: 10px; margin-left: 10px; font-size: 15px; text-align: center;">
+               <p style="color: black; text-align: left;  font-size: 15px; text-align: center;">
                   The Nuclear Energy eXperimental Testing Laboratory, or NEXT Lab, is dedicated to finding real-world solutions to some of the world's most critical needs using advanced nuclear reactor designs.  Our team includes senior physicists and engineers who work alongside students to find solutions that are safe, environmentally responsible, and affordable enough to benefit those living in poverty across the globe...<a href="About" style="color: rgb(123,164,221);  font-weight: bold;" >learn more</a>
                </p>
                <hr style="border-color: black;" />
-               <h3 style="color: rgb(98,99,102); font-size: 22px; font-weight: bold; margin-left: 10px; margin-right: 5px; margi />n-top: 0px; text-align: center;">
+               <h3 style="color: rgb(98,99,102); font-size: 22px; font-weight: bold;  margi />n-top: 0px; text-align: center;">
                    OUR LAB
                </h3>
-               <p style="color: black; text-align: left; margin-right: 10px; margin-left: 10px; font-size: 15px; text-align: center;">
+               <p style="color: black; text-align: left;  font-size: 15px; text-align: center;">
                    The NEXT Lab is housed in the recently remodeled <a href="http://www.acu.edu/via/engineering-physics-lab.html" style="color: rgb(123,164,221);  font-weight: bold;" target="_blank">Engineering and Physics Laboratories</a> on the campus of <a href="http://www.acu.edu" style=" font-weight: bold; color: rgb(123,164,221)" target="_blank">Abilene Christian University</a> in Abilene, TX. This new facility includes modern machine shops, dedicated research labs, and ample high-bay research areas. This new lab space is part of a larger $75 million dollar capital campaign that will provide three new science and engineering buildings.
                </p>
                <p style="margin-bottom: 20px;"></p>
