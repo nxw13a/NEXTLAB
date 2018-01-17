@@ -53,14 +53,14 @@
         <p style="margin: 15px;"></p>
         <style>
             
-            @media screen and (min-width: 65.5em ) {
+            @media screen and (min-width: 55.5em ) {
               .leftColumn { margin-right: 19.5em; }
              
 
 	            .rightColumn { position: absolute; top: 0; right: 0; width: 18.5em; }   
 
             }
-             @media screen and (max-width: 65.4em ) {
+             @media screen and (max-width: 55.4em ) {
               #sideCol{
                   margin-top: 1em;
               }   
@@ -140,7 +140,7 @@
                </ul>
                 <hr />
                <h3 style="color: white; text-align: left; margin-left: 10px;  font-size: 20px; font-weight: bold;">&rArr; OUR CAMPUS</h3>
-               <a href="http://www.acu.edu" target="_blank"><img src="ACUlogo.png" height=50% width=50% style="display: block; margin: 0 auto;"/></a>
+               <a href="http://www.acu.edu" target="_blank"><img src="newaculogo.jpg" style="display: block; padding: 15px 10px 15px 10px; margin: 0 auto; background-color: white; width: 70%; height: auto; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);"/></a>
               
 
            </aside>

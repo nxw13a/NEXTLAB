@@ -138,6 +138,7 @@
     <Content Include="blogo.ico" />
     <Content Include="bradley_mitchell.aspx" />
     <Content Include="brad_m.png" />
+    <Content Include="caleb_h.jpg" />
     <Content Include="caleb_h.png" />
     <Content Include="caleb_hicks.aspx" />
     <Content Include="Calender.png" />
@@ -192,7 +193,9 @@
     <Content Include="main_pic.JPG" />
     <Content Include="MediaCover.aspx" />
     <Content Include="MSTL.aspx" />
+    <Content Include="newaculogo.jpg" />
     <Content Include="Nitrate_ter.jpg" />
+    <Content Include="olive_t.jpg" />
     <Content Include="olivia_t.aspx" />
     <Content Include="olivia_t.png" />
     <Content Include="Related_sites.aspx" />

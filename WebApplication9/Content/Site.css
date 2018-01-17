@@ -28,7 +28,8 @@ textarea {
 
 /* Set margin for the navigation text*/
 .nav.navbar-nav.navbar-right{
-    margin-top: 25px;
+    margin-top: 5px;
+    text-align: center;
 }
 /* Responsive: Portrait tablets and up */
 @media screen and (min-width: 768px) {
@@ -38,6 +39,10 @@ textarea {
 
     .body-content {
         padding: 0;
+    }
+    .nav.navbar-nav.navbar-right {
+        margin-top: 25px;
+        text-align: center;
     }
 }
 

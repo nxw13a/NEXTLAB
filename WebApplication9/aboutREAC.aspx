@@ -4,12 +4,15 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <style>
 
-
+*{
+    box-sizing: border-box;
+}
 ul.sidenav {
     list-style-type: none;
+    text-align: center;
     margin: 0;
     padding: 0;
-    width: 25%;
+    width: auto;
     background-color: rgb(225,225,225);
     position: relative;
     height: 100%;
@@ -20,7 +23,7 @@ ul.sidenav {
 ul.sidenav li a {
     display: block;
     color: #000;
-    padding: 8px 16px;
+    padding: 15px 16px;
     text-decoration: none;
 }
  
@@ -29,60 +32,62 @@ ul.sidenav li a.active {
     color: white;
 }
 
-
 ul.sidenav li a:hover:not(.active) {
     background-color: rgb(98,99,102);
     color: white;
 }
 
 div.content {
-    margin-left: 25%;
+   
     padding: 1px 16px;
-    margin-top: -834px;
-    margin-left: 300px;
+
+}
+.column{
+    float: left;
+    width: 75%;
+   padding: 0.5em;
+   
+}
+.column1{
+    float: left;
+    width: 25%;
+    padding: 0.5em;
+    
+}
+#sideCOL{
+    margin-top: 10px;
+    padding: 1px 16px 16px;
+    width: auto;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
 }
 
-@media screen and (max-width: 1200px) and (min-width: 991.9px) {
 
-    div.content {margin-top: -868px; margin-left: 250px;}
-    #sideCOL{
-        width: 240px;
+
+
+@media screen and (max-width: 750px) {
+    ul.sidenav li a {
+        text-align: center;
+        float: none;
     }
-
-}
-@media screen and (max-width: 991.8px) and (min-width: 900px) {
-
-    div.content {margin-top: -977px; margin-left: 200px;}
-    #sideCOL{
-        width: 190px;
-    }
-
-}
-@media screen and (max-width: 900px) {
     ul.sidenav {
         width: 100%;
         height: auto;
         position: relative;
     }
-    ul.sidenav li a {
-        float: left;
-        padding: 15px;
+    .column {
+        width: 100%;
     }
-    div.content {margin-left: 0; margin-top: 10px;}
+    .column1 {
+        width: 100%;
+    }
     #quote{
         display: none;
     }
-    #sideCOL{
-        display: none;
-    }
-}
-
-@media screen and (max-width: 500px) {
-    ul.sidenav li a {
-        text-align: center;
-        float: none;
-    }
-    #quote{
+    #quote1{
         display: none;
     }
     #sideCOL{
@@ -90,17 +95,19 @@ div.content {
     }
 }
 </style>
-  <h1 style="color: white; text-align: center; background-color:rgb(98,99,102); border-radius: 10px; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">Research</h1>
+  <h1 style="color: white; text-align: center; padding: 5px; background-color:rgb(98,99,102); border-radius: 10px; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">Research</h1>
+<div class="row">
+<div class="column1">
 <ul class="sidenav">
   <li><a href="Research">Why Nuclear?</a></li>
   <li><a class="active" href="aboutREAC">About Reactor</a></li>   
   <li><a href="BenREAC">Reactor's Benefits</a></li>
   <!--<li><i id="quote" style="font-size: 20px; color: darkblue;"><i style="font-size: 25px; color: darkorange;">1 IN 3</i> -- The number of people who do not have access to the water needed for proper hygiene and sanitation</i></li>-->
-<li><i id="quote" style="font-size: 18px;  font-weight: bold; color: rgb(98,99,102); text-align: center; margin-top: 5px; margin-left: 10px; text-align: center;">"Finding global solutions to the world’s most critical needs" </i></li>
+<li><i id="quote" style="font-size: 18px;  font-weight: bold; color: rgb(98,99,102); text-align: center;">"Finding global solutions to the world’s most critical needs" </i></li>
 
 </ul>
 
-<aside id="sideCOL" class="leftColumn"  style="background-color: rgb(98,99,102); border-radius: 10px; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); max-width: 290px; margin-top: 20px;">
+<aside id="sideCOL" class="leftColumn"  style="background-color: rgb(98,99,102); border-radius: 10px; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">
              <h3 style="color: white; text-align: left; margin-left: 10px;  font-size: 20px; font-weight: bold;">&rArr; MEDIA COVERAGE</h3>
                <ul class="home-side-touts" style="color: white; text-align: left; margin-right: 10px;">
                    <li><a  href="https://www.youtube.com/watch?v=YvHqLEqflws" target="_blank" style="color: rgb(123,164,221);">ACU is about to start researching something interesting</a></li>
@@ -118,9 +125,11 @@ div.content {
                </ul>
                 <hr />
                <h3 style="color: white; text-align: left; margin-left: 10px;  font-size: 20px; font-weight: bold;">&rArr; OUR CAMPUS</h3>
-               <a href="http://www.acu.edu" target="_blank"><img src="ACUlogo.png" height=50% width=50% style="display: block; margin: 0 auto;"/></a>
-</aside>
+              <a href="http://www.acu.edu" target="_blank"><img src="newaculogo.jpg" style="display: block; padding: 15px 10px 15px 10px; margin: 0 auto; background-color: white; width: 70%; height: auto; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);"/></a>
 
+</aside>
+</div>
+<div class="column">
 <div class="content" style="background-color: rgb(225,225,225); border-radius: 10px; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); ">
     <h2 style="color: rgb(98,99,102); font-weight: bold; text-align: center;">THE NEED FOR ADVANCED REACTORS</h2>
     <p style="color: black;">There are approximately 100 commercial nuclear reactors in the United States. All of these reactors are based on technology more than 60 years old, called Pressurized Water Reactors (PWRs).  They use solid uranium fuel that has been enriched so that the fissile isotope (U-235) is more abundant than when uranium is found in nature. They all use water as both the moderator and primary coolant. These reactors are good, but newer reactors can be much better. Key advanced reactor design features that yield superior reactor performance are the uses of liquid fuel in a molten salt coolant.</p>
@@ -133,5 +142,7 @@ div.content {
     <p style="color: black;">While water has a high heat capacity as a liquid, it becomes a gas at 100° C. As a gas, it has a very poor heat capacity. To allow the reactor to operate at higher temperatures, the entire reactor core and primary coolant system is designed to operate at very high pressures. This defining characteristic is why these reactors are referred to as Pressurized Water Reactors (PWRs). While this is a proven technology, the shortcomings of water as a coolant and the dangers of operating at high pressures directly contributed to the nuclear accident at Fukushima.</p>
     <p style="color: black;">A far superior coolant is a molten salt. A salt in chemistry is just a substance that is held together by the electric force when positive and negative charged ions are mixed. Typically these combine in such a way to form regular crystal structures at room temperature much like ordinary table salt. However, if the temperature of the salt is raised high enough, the solid crystal will melt into a liquid and become a molten salt. Once melted, these molten salts look and flow much like water. Unlike water, though, they do not become a gas until they are over 1400° C, so the reactor core does not have to be built to operate at high pressures. This avoids both the cost and danger associated with PWR.</p>
     <p style="color: black;">Finally, it should be noted that operating the reactor at higher temperatures allows a more than 50 percent increase in efficiency when converting heat to electricity</p>
+</div>
+</div>
 </div>
 </asp:Content>

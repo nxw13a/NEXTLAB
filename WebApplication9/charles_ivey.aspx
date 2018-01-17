@@ -5,22 +5,15 @@
 
 <style>
 
-#topcontent{
-    margin-left: 30px;
-    margin-top: 0px;
+*{
+    box-sizing: border-box;
 }
-#imgcolumn{
-    float: left;
-    margin-left: 60px;
-    padding-right: 45px;
-    padding-bottom: 30px;
-}
-
 ul.sidenav {
     list-style-type: none;
+    text-align: center;
     margin: 0;
     padding: 0;
-    width: 25%;
+    width: auto;
     background-color: rgb(225,225,225);
     position: relative;
     height: 100%;
@@ -31,7 +24,7 @@ ul.sidenav {
 ul.sidenav li a {
     display: block;
     color: #000;
-    padding: 8px 16px;
+    padding: 15px 16px;
     text-decoration: none;
 }
  
@@ -46,121 +39,74 @@ ul.sidenav li a:hover:not(.active) {
 }
 
 div.content {
-    margin-left: 26%;
+   
     padding: 1px 16px;
-    margin-top: -870px;
+
+}
+.column{
+    float: left;
+    width: 75%;
+   padding: 0.5em;
    
 }
-
-
-@media screen and (max-width: 1199px) and (min-width: 991.9px) {
-
-    div.content {margin-top: -904px;}
-    #sideCOL{
-        width: 240px;
-    }
-    #textcolumn{
-    float: right;
-    margin-right: 70px;
-}
-
-}
-@media screen and (max-width: 991.8px) and (min-width: 900px) {
-
-    div.content {margin-top: -1014px;}
-    #sideCOL{
-        width: 190px;
-    }
-
-        #imgcolumn{
-    padding-bottom: 5px;
-    padding-right: 10px;
+.column1{
     float: left;
-    margin-left: 10px;
+    width: 25%;
+    padding: 0.5em;
+    
 }
-       #topcontent{
-           margin-left: 20px;
-       }
-
+#sideCOL{
+    margin-top: 10px;
+    padding: 1px 16px 16px;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
 }
 
-@media screen and (max-width: 900px) {
+
+
+
+@media screen and (max-width: 750px) {
+    ul.sidenav li a {
+        text-align: center;
+        float: none;
+    }
     ul.sidenav {
         width: 100%;
         height: auto;
         position: relative;
     }
-    ul.sidenav li a {
-        float: left;
-        padding: 15px;
+    .column {
+        width: 100%;
     }
-    div.content {margin-left: 0; margin-top: 10px; height: auto;}
+    .column1 {
+        width: 100%;
+    }
     #quote{
+        display: none;
+    }
+    #quote1{
         display: none;
     }
     #sideCOL{
         display: none;
     }
-
-            #imgcolumn{
- display: block;
-    margin-left: 0px;
-    display: block;
-    margin: 0 auto;
-    float: none;
-    padding-right: 0px;
-    padding-bottom: 10px;
-}
-   #intro{
-       text-align: center;
-       
-   }
-         #topcontent{
-           margin-left: 0px;
-       }
-}
-
-@media screen and (max-width: 550px) {
-    ul.sidenav li a {
-        text-align: center;
-        float: none;
-    }
-    #quote{
-        display: none;
-    }
-    #sideCOL{
-        display: none;
-    }
-    div.content {height: auto;}
-
-            #imgcolumn{
- display: block;
-    margin-left: 0px;
-    display: block;
-    margin: 0 auto;
-    float: none;
-    padding-right: 0px;
-    padding-bottom: 10px;
-}
-               #intro{
-       text-align: center;
-       
-   }
-  #topcontent{
-           margin-left: 0px;
-       }
 }
 </style>
-  <h1 style="color: white; text-align: center; background-color:rgb(98,99,102); border-radius: 10px; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">Faculty/Staff</h1>
+  <h1 style="color: white; text-align: center; padding: 5px;background-color:rgb(98,99,102); border-radius: 10px; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">Faculty/Staff</h1>
+<div class="row">
+<div class="column1">
 <ul class="sidenav">
   <li><a href="About">Mission</a></li>
   <li><a href="History">History</a></li>
     <li><a href="WHYACU">Why ACU?</a></li>
   <li><a  href="Members">Members</a></li>
   <!--<li><a href="#contact">Student</a></li>-->
-  <li><i id="quote" style="font-size: 18px;  font-weight: bold; color: rgb(98,99,102); text-align: center; margin-top: 5px; margin-left: 10px; text-align: center;">"Finding global solutions to the world’s most critical needs" </i></li>
+  <li><i id="quote" style="font-size: 18px;  font-weight: bold; color: rgb(98,99,102); text-align: center;">"Finding global solutions to the world’s most critical needs" </i></li>
 </ul>
-<aside id="sideCOL" class="leftColumn"  style="background-color: rgb(98,99,102); border-radius: 10px; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); max-width: 290px; margin-top: 20px;">
+<aside  id="sideCOL" style="background-color: rgb(98,99,102); border-radius: 10px; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">
              <h3 style="color: white; text-align: left; margin-left: 10px;  font-size: 20px; font-weight: bold;">&rArr; MEDIA COVERAGE</h3>
                <ul class="home-side-touts" style="color: white; text-align: left; margin-right: 10px;">
                    <li><a  href="https://www.youtube.com/watch?v=YvHqLEqflws" target="_blank" style="color: rgb(123,164,221);">ACU is about to start researching something interesting</a></li>
@@ -178,18 +124,15 @@ div.content {
                </ul>
                 <hr />
                <h3 style="color: white; text-align: left; margin-left: 10px;  font-size: 20px; font-weight: bold;">&rArr; OUR CAMPUS</h3>
-               <a href="http://www.acu.edu" target="_blank"><img src="ACUlogo.png" height=50% width=50% style="display: block; margin: 0 auto;"/></a>
-</aside>
+               <a href="http://www.acu.edu" target="_blank"><img src="newaculogo.jpg" style="display: block; padding: 15px 10px 15px 10px; margin: 0 auto; background-color: white; width: 70%; height: auto; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);"/></a>
 
+</aside>
+</div>
+<div class="column">
 <div class="content" style="background-color: rgb(225,225,225); border-radius: 10px; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); ">
      <h2 style="color: rgb(98,99,102); font-weight: bold; text-align: center; ">Dr. Charles Ivey </h2>
-     <div id="imgcolumn""><img src="charles_i.png" style="display: block; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); max-width:100%; max-height:100%; margin: 0 auto;"/></div>
-     <div id="textcolumn" style="color: black; ">
-
-        </div> 
-
-    <div id="topcontent" style="color: black;"">
-        <div id="intro">
+     <div  style="margin-bottom: 10px;"><img src="charles_i.png" style="display: block; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); max-width:100%; max-height:100%; margin: 0 auto;"/></div>
+        <div id="intro" style="text-align: center;">
              <p >
                 <i>Retired Professor of Physics Department</i>
              </p>
@@ -221,11 +164,8 @@ div.content {
         <p>
             <i>Most people are not aware that physics and engineering majors share much of the same foundational educational experiences. Students in each program share many of the same classes at the freshman and sophomore levels, then branch out or specialize in various studies as juniors and seniors. It makes sense for engineering and physics to be paired at ACU, and I think the new lab space they’ll share this fall will be a natural learning environment that will benefit both. Certainly the off-campus research in the physics program will have applications for engineering majors as well. It’s a win-win. Physicists with knowledge of engineering and engineers with knowledge of physics are going to be better prepared than either in isolation. I know; I have earned a few engineering awards and have employed many types of Ph.D.s and engineers.</i>
         </p>
- 
-
 </div>
-    </div>
-
-
+</div>
+</div>
 </asp:Content>
 

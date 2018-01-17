@@ -4,12 +4,15 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <style>
 
-
+*{
+    box-sizing: border-box;
+}
 ul.sidenav {
     list-style-type: none;
+    text-align: center;
     margin: 0;
     padding: 0;
-    width: 25%;
+    width: auto;
     background-color: rgb(225,225,225);
     position: relative;
     height: 100%;
@@ -20,7 +23,7 @@ ul.sidenav {
 ul.sidenav li a {
     display: block;
     color: #000;
-    padding: 8px 16px;
+    padding: 15px 16px;
     text-decoration: none;
 }
  
@@ -35,54 +38,56 @@ ul.sidenav li a:hover:not(.active) {
 }
 
 div.content {
-    margin-left: 25%;
+   
     padding: 1px 16px;
-    margin-top: -834px;
-    margin-left: 300px;
+
+}
+.column{
+    float: left;
+    width: 75%;
+   padding: 0.5em;
+   
+}
+.column1{
+    float: left;
+    width: 25%;
+    padding: 0.5em;
+    
+}
+#sideCOL{
+    margin-top: 10px;
+    padding: 1px 16px 16px;
+    width: auto;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
 }
 
 
-@media screen and (max-width: 1200px) and (min-width: 991.9px) {
 
-    div.content {margin-top: -868px; margin-left: 250px;}
-    #sideCOL{
-        width: 240px;
+
+@media screen and (max-width: 750px) {
+    ul.sidenav li a {
+        text-align: center;
+        float: none;
     }
-
-}
-@media screen and (max-width: 991.8px) and (min-width: 900px) {
-
-    div.content {margin-top: -977px; margin-left: 200px;}
-    #sideCOL{
-        width: 190px;
-    }
-
-}
-@media screen and (max-width: 900px) {
     ul.sidenav {
         width: 100%;
         height: auto;
         position: relative;
     }
-    ul.sidenav li a {
-        float: left;
-        padding: 15px;
+    .column {
+        width: 100%;
     }
-    div.content {margin-left: 0; margin-top: 10px;}
+    .column1 {
+        width: 100%;
+    }
     #quote{
         display: none;
     }
-    #sideCOL{
-        display: none;
-    }
-}
-
-@media screen and (max-width: 500px) {
-    ul.sidenav li a {
-        text-align: center;
-        float: none;
-    }
-    #quote{
+    #quote1{
         display: none;
     }
     #sideCOL{
@@ -90,15 +95,17 @@ div.content {
     }
 }
 </style>
-  <h1 style="color: white; text-align: center; background-color:rgb(98,99,102); border-radius: 10px; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">Research</h1>
+  <h1 style="color: white; text-align: center; padding: 5px; background-color:rgb(98,99,102); border-radius: 10px; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">Research</h1>
+<div class="row">
+<div class="column1">
 <ul class="sidenav">
   <li><a class="active" href="Research">Why Nuclear?</a></li>
   <li><a href="aboutREAC">About Reactor</a></li>   
   <li><a href="BenREAC">Reactor's Benefits</a></li>
   <!--<li><i id="quote" style="font-size: 20px; color: darkblue;"><i style="font-size: 25px; color: darkorange;">40</i> -- The percentage of people on Earth who use animal dung or other waste products to heat their homes and cook their food"</i></li>-->
-  <li><i id="quote" style="font-size: 18px;  font-weight: bold; color: rgb(98,99,102); text-align: center; margin-top: 5px; margin-left: 10px; text-align: center;">"Finding global solutions to the world’s most critical needs" </i></li>
+  <li><i id="quote" style="font-size: 18px;  font-weight: bold; color: rgb(98,99,102); text-align: center;">"Finding global solutions to the world’s most critical needs" </i></li>
 </ul>
-<aside id="sideCOL" class="leftColumn"  style="background-color: rgb(98,99,102); border-radius: 10px; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); max-width: 290px; margin-top: 20px;">
+<aside id="sideCOL" class="leftColumn"  style="background-color: rgb(98,99,102); border-radius: 10px; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">
              <h3 style="color: white; text-align: left; margin-left: 10px;  font-size: 20px; font-weight: bold;">&rArr; MEDIA COVERAGE</h3>
                <ul class="home-side-touts" style="color: white; text-align: left; margin-right: 10px;">
                    <li><a  href="https://www.youtube.com/watch?v=YvHqLEqflws" target="_blank" style="color: rgb(123,164,221);">ACU is about to start researching something interesting</a></li>
@@ -116,9 +123,11 @@ div.content {
                </ul>
                 <hr />
                <h3 style="color: white; text-align: left; margin-left: 10px;  font-size: 20px; font-weight: bold;">&rArr; OUR CAMPUS</h3>
-               <a href="http://www.acu.edu" target="_blank"><img src="ACUlogo.png" height=50% width=50% style="display: block; margin: 0 auto;"/></a>
-</aside>
+               <a href="http://www.acu.edu" target="_blank"><img src="newaculogo.jpg" style="display: block; padding: 15px 10px 15px 10px; margin: 0 auto; background-color: white; width: 70%; height: auto; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);"/></a>
 
+</aside>
+</div>
+<div class="column">
 <div class="content" style="background-color: rgb(225,225,225);; border-radius: 10px; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); ">
     <h2 style="color: rgb(98,99,102); font-weight: bold; text-align: center;">THE NEED FOR NUCLEAR</h2>
     <p style="color: black;">The standard of living around the world is directly tied to the availability of energy. Energy is essential for the delivery of drinking water, high quality health care, security, commerce, communication and virtually every other part of our modern life. In places where the energy is expensive, intermittent, or unavailable, the quality of life is greatly decreased. Nuclear energy is the optimal source because it is inexpensive, safe, clean and available on demand.</p>
@@ -136,5 +145,7 @@ div.content {
     <p style="color: black;">In first world countries, energy is delivered to most consumers in the form of electricity. However, there is not an efficient method to store large quantities of energy in the form of electricity.</p>
     <p style="color: black;">Batteries work fine for small devices that use very little energy such as cell phones, but are insufficient for larger energy needs such as those in an average home. Therefore, electricity must be produced in real time as the consumer uses it.</p>
     <p style="color: black;">Sources of electricity that are intermittent such as wind and solar can never be depended on to supply electricity in a meaningful large-scale manner. On the other hand, nuclear reactors are designed to naturally produce more energy when there is a higher demand for electricity. This ability to produce electricity on demand and to follow the needed load is critical to supporting our standard of living and enabling industry to thrive.</p>
+</div>
+</div>
 </div>
 </asp:Content>

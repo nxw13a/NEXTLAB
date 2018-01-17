@@ -4,11 +4,74 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <style>
+
+
+*:before, *:after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+section {
+  display: none;
+  padding: 20px 0 0;
+  border-top: 1px solid;
+}
+
+input {
+  display: none;
+}
+
+label {
+  display: inline-block;
+  width: auto;
+  padding: 15px 25px;
+  font-weight: 600;
+  font-size: larger;
+  text-align: center;
+  color: #bbb;
+  border: 1px solid transparent white;
+
+}
+
+label:before {
+  font-family: fontawesome;
+  font-weight: normal;
+  
+}
+
+
+
+
+label:hover {
+  color: rgb(98,99,102);
+  cursor: pointer;
+}
+
+input:checked + label {
+  color: white;
+  background-color:  rgb(98,99,102);
+  border: 1px solid #ddd;
+  border-top: 2px solid rgb(98,99,102);
+  
+}
+
+#tab1:checked ~ #content1,
+#tab2:checked ~ #content2
+ {
+  display: block;
+}
+
+
+*{
+    box-sizing: border-box;
+}
 ul.sidenav {
     list-style-type: none;
+    text-align: center;
     margin: 0;
     padding: 0;
-    width: 25%;
+    width: auto;
     background-color: rgb(225,225,225);
     position: relative;
     height: 100%;
@@ -19,7 +82,7 @@ ul.sidenav {
 ul.sidenav li a {
     display: block;
     color: #000;
-    padding: 8px 16px;
+    padding: 15px 16px;
     text-decoration: none;
 }
  
@@ -34,73 +97,79 @@ ul.sidenav li a:hover:not(.active) {
 }
 
 div.content {
-    margin-left: 26%;
+   
     padding: 1px 16px;
-    margin-top: -870px;
+
+}
+.column{
+    float: left;
+    width: 75%;
+   padding: 0.5em;
    
 }
-
-
-@media screen and (max-width: 1199px) and (min-width: 991.9px) {
-
-    div.content {margin-top: -904px;}
-    #sideCOL{
-        width: 240px;
-    }
-
+.column1{
+    float: left;
+    width: 25%;
+    padding: 0.5em;
+    
 }
-@media screen and (max-width: 991.8px) and (min-width: 900px) {
-
-    div.content {margin-top: -1013px;}
-    #sideCOL{
-        width: 190px;
-    }
-
+#sideCOL{
+    margin-top: 10px;
+    padding: 1px 16px 16px;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
 }
 
-@media screen and (max-width: 900px) {
+
+
+@media screen and (max-width: 750px) {
+    ul.sidenav li a {
+        text-align: center;
+        float: none;
+    }
     ul.sidenav {
         width: 100%;
         height: auto;
         position: relative;
     }
-    ul.sidenav li a {
-        float: left;
-        padding: 15px;
+    .column {
+        width: 100%;
     }
-    div.content {margin-left: 0; margin-top: 10px; height: auto;}
+    .column1 {
+        width: 100%;
+    }
     #quote{
+        display: none;
+    }
+    #quote1{
         display: none;
     }
     #sideCOL{
         display: none;
     }
+    
 }
-
-@media screen and (max-width: 550px) {
-    ul.sidenav li a {
-        text-align: center;
-        float: none;
+@media screen and (max-width: 500px){
+    label{
+        display: block;
     }
-    #quote{
-        display: none;
-    }
-    #sideCOL{
-        display: none;
-    }
-    div.content {height: auto;}
 }
 </style>
-  <div  style="color: white; background-color:rgb(98,99,102); border-radius: 10px; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);"><h1 style="text-align: center;  ">Members</h1></div>
+  <h1 style="color: white; text-align: center; padding: 5px; width: 100%; background-color:rgb(98,99,102); border-radius: 10px;  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">Members</h1>
+<div class="row">
+<div class="column1">
 <ul class="sidenav">
   <li><a href="About">Mission</a></li>
   <li><a href="History">History</a></li>
     <li><a href="WHYACU">Why ACU?</a></li>
   <li><a class="active" href="Members">Members</a></li>
   <!--<li><a href="#contact">Student</a></li>-->
-  <li><i id="quote" style="font-size: 18px;  font-weight: bold; color: rgb(98,99,102); text-align: center; margin-top: 5px; margin-left: 10px; text-align: center;">"Finding global solutions to the world’s most critical needs" </i></li>
+  <li><i id="quote" style="font-size: 18px;  font-weight: bold; color: rgb(98,99,102); text-align: center;">"Finding global solutions to the world’s most critical needs" </i></li>
 </ul>
-<aside id="sideCOL" class="leftColumn"  style="background-color: rgb(98,99,102); border-radius: 10px; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); max-width: 290px; margin-top: 20px;">
+<aside  id="sideCOL" style="background-color: rgb(98,99,102); border-radius: 10px; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">
              <h3 style="color: white; text-align: left; margin-left: 10px;  font-size: 20px; font-weight: bold;">&rArr; MEDIA COVERAGE</h3>
                <ul class="home-side-touts" style="color: white; text-align: left; margin-right: 10px;">
                    <li><a  href="https://www.youtube.com/watch?v=YvHqLEqflws" target="_blank" style="color: rgb(123,164,221);">ACU is about to start researching something interesting</a></li>
@@ -118,12 +187,24 @@ div.content {
                </ul>
                 <hr />
                <h3 style="color: white; text-align: left; margin-left: 10px;  font-size: 20px; font-weight: bold;">&rArr; OUR CAMPUS</h3>
-               <a href="http://www.acu.edu" target="_blank"><img src="ACUlogo.png" height=50% width=50% style="display: block; margin: 0 auto;"/></a>
+               <a href="http://www.acu.edu" target="_blank"><img src="newaculogo.jpg" style="display: block; padding: 15px 10px 15px 10px; margin: 0 auto; background-color: white; width: 70%; height: auto; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);"/></a>
 </aside>
-
+</div>
+<div class="column">
 <div class="content" style="background-color: rgb(225,225,225); border-radius: 10px; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); ">
-    <h2 style="color: rgb(98,99,102); font-weight: bold;  ">Faculty/Staff: </h2>
-
+    
+    <div style="margin-top: 10px;">
+    </div>
+  
+  <input id="tab1" type="radio" name="tabs" checked>
+  <label for="tab1">Faculty/Staff</label>
+  
+  <input id="tab2" type="radio" name="tabs">
+  <label for="tab2">Student</label>
+    
+    
+    
+  <section id="content1">
     <a href="rusty_towell" style="color: rgb(123,164,221); font-weight: bold; font-size: large;">Dr. Rusty Towell</a>
     <p style="color: black; opacity: 0.5; font-size:  smaller;"><i>Director of NEXT Lab, Professor of Engineering and Physics.</i></p>
     <hr style="border-color: black;" />
@@ -151,10 +232,10 @@ div.content {
     <a href="aaron_robison" style="color: rgb(123,164,221); font-weight: bold; font-size: large;">Dr. Aaron Robison</a>
     <p style="color: black; opacity: 0.5; font-size:  smaller;"><i>Professor of Department of Chemistry and Biochemistry.</i> </p>
     <hr style="border-color: black;" />
-
-    <h2 style="color: rgb(98,99,102); font-weight: bold;  margin-top: 10px; ">Student: </h2>
-
-    <a href="caleb_hicks" style="color: rgb(123,164,221); font-weight: bold; font-size: large;">Caleb Hicks</a>
+  </section>
+    
+  <section id="content2">
+   <a href="caleb_hicks" style="color: rgb(123,164,221); font-weight: bold; font-size: large;">Caleb Hicks</a>
     <p style="color: black; opacity: 0.5; font-size:  smaller;"><i>Senior Physics student</i></p>
     <hr style="border-color: black;"/>
 
@@ -164,12 +245,10 @@ div.content {
     <a href="olivia_t" style="color: rgb(123,164,221); font-weight: bold; font-size: large;">Olive Tuyishimire</a>
     <p style="color: black; opacity: 0.5; font-size:  smaller"><i>Sophomore Engineering student</i> </p>
     <hr style="border-color: black;"/>
-    <!--
-    <a href="#fdfas" style="color: aqua; font-size: large;">Nattapat White</a>
-    <p style="color: white; margin-top: 10px;"><i>Senior Computer Science student</i></p>
-    <hr style="border-color: black;"/>
-    -->
+  </section>
+    
+
 </div>
-
-
+</div>
+</div>
 </asp:Content>

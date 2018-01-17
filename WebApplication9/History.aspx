@@ -9,6 +9,7 @@
 }
 ul.sidenav {
     list-style-type: none;
+    text-align: center;
     margin: 0;
     padding: 0;
     width: auto;
@@ -22,7 +23,7 @@ ul.sidenav {
 ul.sidenav li a {
     display: block;
     color: #000;
-    padding: 8px 16px;
+    padding: 15px 16px;
     text-decoration: none;
 }
  
@@ -43,13 +44,13 @@ div.content {
 }
 .column{
     float: left;
-    width: 70%;
+    width: 75%;
    padding: 0.5em;
    
 }
 .column1{
     float: left;
-    width: 30%;
+    width: 25%;
     padding: 0.5em;
     
 }
@@ -72,6 +73,11 @@ div.content {
         text-align: center;
         float: none;
     }
+    ul.sidenav {
+        width: 100%;
+        height: auto;
+        position: relative;
+    }
     .column {
         width: 100%;
     }
@@ -89,15 +95,15 @@ div.content {
     }
 }
 </style>
-  <h1 style="color: white; text-align: center; width: 100%; background-color:rgb(98,99,102); border-radius: 10px; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">History</h1>
+  <h1 style="color: white; text-align: center; width: 100%; padding: 5px; background-color:rgb(98,99,102); border-radius: 10px; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">History</h1>
 <div class="row">
 <div class="column1">
 <ul class="sidenav">
-  <li><a href="About">About</a></li>
+  <li><a href="About">Mission</a></li>
   <li><a class="active" href="History">History</a></li>
     <li><a  href="WHYACU">Why ACU?</a></li>
   <li><a href="Members">Members</a></li>
-  <li><i id="quote" style="font-size: 18px;  font-weight: bold; color: rgb(98,99,102); text-align: center; margin-top: 5px; margin-left: 10px; text-align: center;">"Finding global solutions to the world’s most critical needs" </i></li>
+  <li><i id="quote" style="font-size: 18px;  font-weight: bold; color: rgb(98,99,102); text-align: center; ">"Finding global solutions to the world’s most critical needs" </i></li>
 </ul>
 <aside id="sideCOL" class="leftColumn"  style="background-color: rgb(98,99,102); border-radius: 10px; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">
              <h3 style="color: white; text-align: left; margin-left: 10px;  font-size: 20px; font-weight: bold;">&rArr; MEDIA COVERAGE</h3>
@@ -117,9 +123,7 @@ div.content {
                </ul>
                 <hr />
                <h3 style="color: white; text-align: left; margin-left: 10px;  font-size: 20px; font-weight: bold;">&rArr; OUR CAMPUS</h3>
-               <a href="http://www.acu.edu" target="_blank"><img src="ACUlogo.png" height=50% width=50% style="display: block; margin: 0 auto;"/></a>
-              
-
+               <a href="http://www.acu.edu" target="_blank"><img src="newaculogo.jpg" style="display: block; padding: 15px 10px 15px 10px; margin: 0 auto; background-color: white; width: 70%; height: auto; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);"/></a>
 </aside>
 </div>
 <div class="column">

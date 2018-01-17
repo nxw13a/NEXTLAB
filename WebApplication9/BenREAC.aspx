@@ -4,12 +4,15 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <style>
 
-
+*{
+    box-sizing: border-box;
+}
 ul.sidenav {
     list-style-type: none;
+    text-align: center;
     margin: 0;
     padding: 0;
-    width: 25%;
+    width: auto;
     background-color: rgb(225,225,225);
     position: relative;
     height: 100%;
@@ -20,7 +23,7 @@ ul.sidenav {
 ul.sidenav li a {
     display: block;
     color: #000;
-    padding: 8px 16px;
+    padding: 15px 16px;
     text-decoration: none;
 }
  
@@ -35,59 +38,56 @@ ul.sidenav li a:hover:not(.active) {
 }
 
 div.content {
-    margin-left: 25%;
+   
     padding: 1px 16px;
-    margin-top: -834px;
-    margin-left: 300px;
-}
-@media screen and (max-width: 1200px) and (min-width: 991.9px) {
 
-    div.content {margin-top: -867px; margin-left: 250px;}
-    #sideCOL{
-        width: 240px;
+}
+.column{
+    float: left;
+    width: 75%;
+   padding: 0.5em;
+   
+}
+.column1{
+    float: left;
+    width: 25%;
+    padding: 0.5em;
+    
+}
+#sideCOL{
+    margin-top: 10px;
+    padding: 1px 16px 16px;
+    width: auto;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+
+
+@media screen and (max-width: 750px) {
+    ul.sidenav li a {
+        text-align: center;
+        float: none;
     }
-
-}
-@media screen and (max-width: 991.8px) and (min-width: 900px) {
-
-    div.content {margin-top: -977px; margin-left: 200px;}
-    #sideCOL{
-        width: 190px;
-    }
-
-}
-@media screen and (max-width: 900px) {
     ul.sidenav {
         width: 100%;
         height: auto;
         position: relative;
     }
-    ul.sidenav li a {
-        float: left;
-        padding: 15px;
+    .column {
+        width: 100%;
     }
-    div.content {margin-left: 0; margin-top: 10px;}
-    #quote{
-        display: none;
-    }
-    #quoted{
-        display: none;
-    }
-    #sideCOL{
-        display: none;
-    }
-}
-
-
-@media screen and (max-width: 500px) {
-    ul.sidenav li a {
-        text-align: center;
-        float: none;
+    .column1 {
+        width: 100%;
     }
     #quote{
         display: none;
     }
-    #quoted{
+    #quote1{
         display: none;
     }
     #sideCOL{
@@ -95,7 +95,9 @@ div.content {
     }
 }
 </style>
-  <h1 style="color: white; text-align: center; background-color:rgb(98,99,102); border-radius: 10px; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">Research</h1>
+  <h1 style="color: white; text-align: center; padding: 5px; background-color:rgb(98,99,102); border-radius: 10px; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">Research</h1>
+<div class="row">
+<div class="column1">
 <ul class="sidenav">
   <li><a href="Research">Why Nuclear?</a></li>
   <li><a href="aboutREAC">About Reactor</a></li>   
@@ -103,10 +105,10 @@ div.content {
  <!--<li><i id="quote" style="font-size: 20px; color: darkblue;"><i style="font-size: 25px; color: darkorange;">1 IN 3</i> -- The number of women in the U.S. at risk of developing cancer in their lifetime; one in five are at risk of dying of cancer </i></li>
  <li><i id="quoted" style="font-size: 20px; color: darkblue;"><i style="font-size: 25px; color: darkorange;">1 IN 2</i> -- The number of men in the U.S. at risk of developing cancer in their life time; one in four are at risk of dying of cancer </i></li>
 -->
-  <li><i id="quote" style="font-size: 18px;  font-weight: bold; color: rgb(98,99,102); text-align: center; margin-top: 5px; margin-left: 10px; text-align: center;">"Finding global solutions to the world’s most critical needs" </i></li>
-
+  <li><i id="quote" style="font-size: 18px;  font-weight: bold; color: rgb(98,99,102); text-align: center;">"Finding global solutions to the world’s most critical needs" </i></li>
 </ul>
-<aside id="sideCOL" class="leftColumn"  style="background-color: rgb(98,99,102); border-radius: 10px; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); max-width: 290px; margin-top: 20px;">
+
+<aside id="sideCOL" class="leftColumn"  style="background-color: rgb(98,99,102); border-radius: 10px; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">
              <h3 style="color: white; text-align: left; margin-left: 10px;  font-size: 20px; font-weight: bold;">&rArr; MEDIA COVERAGE</h3>
                <ul class="home-side-touts" style="color: white; text-align: left; margin-right: 10px;">
                    <li><a  href="https://www.youtube.com/watch?v=YvHqLEqflws" target="_blank" style="color: rgb(123,164,221);">ACU is about to start researching something interesting</a></li>
@@ -124,8 +126,11 @@ div.content {
                </ul>
                 <hr />
                <h3 style="color: white; text-align: left; margin-left: 10px;  font-size: 20px; font-weight: bold;">&rArr; OUR CAMPUS</h3>
-               <a href="http://www.acu.edu" target="_blank"><img src="ACUlogo.png" height=50% width=50% style="display: block; margin: 0 auto;"/></a>
+               <a href="http://www.acu.edu" target="_blank"><img src="newaculogo.jpg" style="display: block; padding: 15px 10px 15px 10px; margin: 0 auto; background-color: white; width: 70%; height: auto; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);"/></a>
+
 </aside>
+</div>
+<div class="column">
 <div class="content" style="background-color: rgb(225,225,225); border-radius: 10px; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); ">
     <h2 style="color:rgb(98,99,102); font-weight: bold; text-align: center;">ADDRESSING CRITICAL NEEDS</h2>
     <p style="color: black;">Energy is essential for the delivery of drinking water, high-quality health care, security, commerce, communication and virtually every other part of modern life. In places where the supply of energy is expensive, intermittent or unavailable, the quality of life is greatly decreased. The living standard of people around the world is directly related to the amount of energy that is available for consumption.</p>
@@ -144,5 +149,7 @@ div.content {
     <p style="color: black;">Another medical isotope needed is Bi-213.  It has opened doors for targeted alpha therapy, which is used to kill dispersed cancers such as leukemia and lymphoma. This provides a new treatment option, one that would spare patients from the pain caused by chemotherapy and in limited trials has been amazingly effective.</p>
     <p style="color: black;">Unfortunately, there have been recent and unexpected shortages of these much needed radioisotopes due to the poor way they are being produced. The current system for creating Mo-99 involves irradiating targets containing highly enriched uranium (HEU), which is a nuclear proliferation risk.  This method of production also has a terrible efficiency; only about 0.4% of the uranium fuel being used to create Mo-99 and the rest is wasted. Another drawback of this process is that it produces radioactive by-products with long half-lives.</p>
     <p style="color: black;">With the current unstable and limited supply of Mo-99, doctors are being forced to make choices on which patient has a greater need for the procedures. To solve this shortage problem, people around the world are searching for a reliable supply of Mo-99 that doesn’t involve HEU in its production.  Currently there is no source for Bi-213.  In both cases, LFMSRs are the answer. Bi-213 and Mo-99 are both formed most efficiently in the natural nuclear processes inside a LFMSR.</p>
+</div>
+</div>
 </div>
 </asp:Content>
