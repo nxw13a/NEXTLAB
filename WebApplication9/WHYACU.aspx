@@ -101,7 +101,7 @@ div.content {
   <li><a  href="About">Mission</a></li>
   <li><a href="History">History</a></li>
     <li><a class="active" href="WHYACU">Why ACU?</a></li>
-  <li><a href="Members">Members</a></li>
+  <li><a href="Members">NEXT's Team</a></li>
   <li><i id="quote" style="font-size: 18px;  font-weight: bold; color: rgb(98,99,102);  text-align: center;">"Finding global solutions to the world’s most critical needs" </i></li>
 </ul>
 <aside  id="sideCOL" style="background-color: rgb(98,99,102); border-radius: 10px; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">

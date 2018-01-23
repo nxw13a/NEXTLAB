@@ -90,7 +90,7 @@
           <div id="message_x" runat="server" class="alert" style="width: auto;" visible="false">
               <span class="closebtn">&times; </span> <strong style="margin-left: 10px; font-size: 10px;">Your form has encountered a problem. Please scroll down to review.</strong>
           </div>
-        <div id="FirstName" style="width: auto; display: block; margin-left: auto; margin-right: auto; ">
+        <div id="FirstName" style="width: auto; ">
 
               <label style="color: white;">First Name *</label>  
               <div id="message_x2" runat="server" class="alert" style="width: 150px;" visible="false">

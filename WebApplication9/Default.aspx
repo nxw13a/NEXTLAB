@@ -7,7 +7,7 @@
             .bottom-left{
                 position: absolute;
     
-                bottom: 1.9em;
+                bottom: 2.0em;
                 left: 3.0em;
                 font-size: larger;
                 color: white;
@@ -41,13 +41,22 @@
                 text-align: center;
                 color: white;
             }
+            .background{
+                width: 100%;
+                margin-top: 10px;
+                height: 400px;
+                background-image: url(main_pic.jpg);
+                background-size: cover;
+                background-position: center center;
+                border-radius: 10px; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
+            }
         </style>
         
         <div class="container">
-            <img src="main_pic.jpg" style="display: block; margin: 0 auto; height:auto; width: 100%; margin-top: 10px; align-content: center;  border-radius: 10px; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);" />
+            <div class="background">
             <div class="bottom-left">
                     TOGETHER WE WILL FIND THE <i style="color: rgb(123,164,221); font-size: x-large">NEXT</i> SOLUTION
-                
+            </div>
             </div>
         </div>
         <p style="margin: 15px;"></p>
@@ -68,10 +77,13 @@
                   display: none;
               }
               .bottom-left{
-                  bottom: 0.5em;
+                  bottom: 0.6em;
                   height: auto;
                   width: auto;
                   padding: 10px;
+              }
+              .background{
+                  height: 320px;
               }
             }
             

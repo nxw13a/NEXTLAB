@@ -101,7 +101,7 @@ div.content {
   <li><a class="active" href="About">Mission</a></li>
   <li><a href="History">History</a></li>
     <li><a href="WHYACU">Why ACU?</a></li>
-  <li><a href="Members">Members</a></li>
+  <li><a href="Members">NEXT's Team</a></li>
   <!--<li><a href="#contact">Student</a></li>-->
   <li><i id="quote" style="font-size: 18px; font-weight: bold; color: rgb(98,99,102); text-align: center; margin-top: 5px;">"Finding global solutions to the world’s most critical needs" </i></li>
 </ul>

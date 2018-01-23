@@ -29,8 +29,9 @@ label {
   font-weight: 600;
   font-size: larger;
   text-align: center;
-  color: #bbb;
-  border: 1px solid transparent white;
+  color: black;
+  border: 1px solid transparent lightgray;
+  background-color: lightgray;
 
 }
 
@@ -44,7 +45,8 @@ label:before {
 
 
 label:hover {
-  color: rgb(98,99,102);
+  color: white;
+  background-color: rgb(98,99,102);
   cursor: pointer;
 }
 
@@ -57,7 +59,7 @@ input:checked + label {
 }
 
 #tab1:checked ~ #content1,
-#tab2:checked ~ #content2
+#tab2:checked ~ #content2,#tab3:checked ~ #content3
  {
   display: block;
 }
@@ -158,14 +160,14 @@ div.content {
     }
 }
 </style>
-  <h1 style="color: white; text-align: center; padding: 5px; width: 100%; background-color:rgb(98,99,102); border-radius: 10px;  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">Members</h1>
+  <h1 style="color: white; text-align: center; padding: 5px; width: 100%; background-color:rgb(98,99,102); border-radius: 10px;  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">NEXT's Team</h1>
 <div class="row">
 <div class="column1">
 <ul class="sidenav">
   <li><a href="About">Mission</a></li>
   <li><a href="History">History</a></li>
     <li><a href="WHYACU">Why ACU?</a></li>
-  <li><a class="active" href="Members">Members</a></li>
+  <li><a class="active" href="Members">NEXT's Team</a></li>
   <!--<li><a href="#contact">Student</a></li>-->
   <li><i id="quote" style="font-size: 18px;  font-weight: bold; color: rgb(98,99,102); text-align: center;">"Finding global solutions to the world’s most critical needs" </i></li>
 </ul>
@@ -197,10 +199,13 @@ div.content {
     </div>
   
   <input id="tab1" type="radio" name="tabs" checked>
-  <label for="tab1">Faculty/Staff</label>
+  <label for="tab1">Members</label>
   
   <input id="tab2" type="radio" name="tabs">
-  <label for="tab2">Student</label>
+  <label for="tab2">Students</label>
+
+    <input id="tab3" type="radio" name="tabs">
+  <label for="tab3">Past Students</label>
     
     
     
@@ -239,9 +244,15 @@ div.content {
     <p style="color: black; opacity: 0.5; font-size:  smaller;"><i>Senior Physics student</i></p>
     <hr style="border-color: black;"/>
 
+
+ 
+  </section>
+
+   <section id="content3">
     <a href="bradley_mitchell" style="color: rgb(123,164,221); font-weight: bold; font-size: large;">Bradley Mitchell</a>
     <p style="color: black; opacity: 0.5; font-size:  smaller"><i>Senior Engineering student</i> </p>
     <hr style="border-color: black;"/>
+
     <a href="olivia_t" style="color: rgb(123,164,221); font-weight: bold; font-size: large;">Olive Tuyishimire</a>
     <p style="color: black; opacity: 0.5; font-size:  smaller"><i>Sophomore Engineering student</i> </p>
     <hr style="border-color: black;"/>
