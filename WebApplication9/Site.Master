@@ -54,7 +54,7 @@
                         <li><a runat="server" href="~/">Home</a></li>
                         <li><a runat="server" href="~/About">About</a></li>
                         <li><a runat="server" href="~/Research">Research</a></li>
-                        <li><a runat="server" href="~/News">News</a></li>
+                        <li><a runat="server" href="~/MediaCover">News</a></li>
                         <li><a runat="server" href="~/Contact">Contact Us</a></li>
                         <li><a runat="server" href="https://securelb.imodules.com/s/1565/form/interior.aspx?sid=1565&gid=1&pgid=1688" target="_blank">Donate</a></li>
                     </ul>

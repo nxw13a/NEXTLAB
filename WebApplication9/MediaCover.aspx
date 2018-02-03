@@ -99,7 +99,9 @@ div.content {
 <div class="row">
 <div class="column1">
 <ul class="sidenav">
+    <!--
   <li><a href="News">NEXT's Updates</a></li>
+    -->
   <li><a class="active" href="MediaCover">Media Coverages</a></li>   
   <li><a href="Related_sites">Related Sites</a></li>
   <!--<li><i id="quote" style="font-size: 20px; color: darkblue;"><i style="font-size: 25px; color: darkorange;">40</i> -- The percentage of people on Earth who use animal dung or other waste products to heat their homes and cook their food"</i></li>-->
@@ -108,12 +110,17 @@ div.content {
 <aside id="sideCOL" class="leftColumn"  style="background-color: rgb(98,99,102); border-radius: 10px; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">
              <h3 style="color: white; text-align: left; margin-left: 10px;  font-size: 20px; font-weight: bold;">&rArr; MEDIA COVERAGE</h3>
                <ul class="home-side-touts" style="color: white; text-align: left; margin-right: 10px;">
-                   <li><a  href="https://www.youtube.com/watch?v=YvHqLEqflws" target="_blank" style="color: rgb(123,164,221);">ACU is about to start researching something interesting</a></li>
-                   <p style="opacity: 0.5; font-size: smaller"<i>Apr 25,2016</i></p>
-                   <li><a href="https://www.youtube.com/watch?v=jDqCpfVwdP4&t=2s" style="color: rgb(123,164,221);" target="_blank">Why making energy from dirt might save the world -- Rusty Towell </a></li>
-                   <p style="opacity: 0.5; font-size: smaller"><i>May 11, 2015</i></p>
+                   <li><a  href="http://acu.today/2018/01/25/next-lab-focuses-research-on-solving-global-problems/" target="_blank" style="color: rgb(123,164,221);">NEXT Lab focuses research on solving global problems</a></li>
+                   <p style="opacity: 0.5; font-size: smaller"<i>Jan 25,2018</i></p>
+                   <li><a  href="http://acu.today/2018/01/25/rusty-towell-innovative-scholar-down-to-earth-teacher/" target="_blank" style="color: rgb(123,164,221);">Rusty Towell: Innovative scholar, down-to-earth teacher</a></li>
+                   <p style="opacity: 0.5; font-size: smaller"<i>Jan 25,2018</i></p>
+                   <li><a href="https://www.youtube.com/watch?v=jDqCpfVwdP4&t=2s" style="color: rgb(123,164,221);" target="_blank">Physics faculty, students featured in science journal </a></li>
+                   <p style="opacity: 0.5; font-size: smaller"><i>Jan 18, 2018</i></p>
+                   <li><a href="MediaCover" style="color: rgb(123,164,221);">more...</a></li>
+                  
                </ul>
                <hr />
+    <!--
                <h3 style="color: white; text-align: left; margin-left: 10px;  font-size: 20px; font-weight: bold;">&rArr; NEXT UPDATES</h3>
                 <ul class="home-side-touts" style="color: white; text-align: left; margin-right: 10px;">
                    <li><a href="MSTL" style="color: rgb(123,164,221);" >Status of Molten Salt Test Loop (MSTL) Assembly and Testing</a></li>
@@ -122,14 +129,21 @@ div.content {
                    <p style="opacity: 0.5; font-size: smaller"><i>July 2017</i></p>
                </ul>
                 <hr />
+    -->
                <h3 style="color: white; text-align: left; margin-left: 10px;  font-size: 20px; font-weight: bold;">&rArr; OUR CAMPUS</h3>
-              <a href="http://www.acu.edu" target="_blank"><img src="newaculogo.jpg" style="display: block; padding: 15px 10px 15px 10px; margin: 0 auto; background-color: white; width: 70%; height: auto; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);"/></a>
-
+               <a href="http://www.acu.edu" target="_blank"><img src="newaculogo.jpg" style="display: block; padding: 15px 10px 15px 10px; margin: 0 auto; background-color: white; width: 70%; height: auto; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);"/></a>
 </aside>
 </div>
 <div class="column">
 <div class="content" style="background-color:  rgb(225,225,225); border-radius: 10px; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); ">
     <h2 style="color:rgb(98,99,102); font-weight: bold; text-align: center;">Media Coverages</h2>
+
+    <h4 style="color: white; "><a href="http://acu.today/2018/01/25/next-lab-focuses-research-on-solving-global-problems/" style="color: rgb(123,164,221); font-weight: bold;" target="_blank">NEXT Lab focuses research on solving global problems</a></h4>
+    <p style="color: GrayText; margin-left: 30px;"><i>A box of Morton’s salt sitting on a table and mention of a Crock-Pot makes visitors to ACU’s NEXT Lab wonder if they are in the right place . . . (Jan 25, 2018)</i></p>
+    <h4 style="color: white; "><a href="http://acu.today/2018/01/25/rusty-towell-innovative-scholar-down-to-earth-teacher/" style="color: rgb(123,164,221); font-weight: bold;" target="_blank">Rusty Towell: Innovative scholar, down-to-earth teacher</a></h4>
+    <p style="color: GrayText; margin-left: 30px;"><i>Remember the adage “Don’t judge a book by its cover” when meeting Rusty Towell (’90) for the first time. . . . (Jan 25, 2018)</i></p>
+    <h4 style="color: white; "><a href="http://www.acu.edu/news/physics-faculty-students-featured-in-science-journal.html" style="color: rgb(123,164,221); font-weight: bold;" target="_blank">Physics faculty, students featured in science journal</a></h4>
+    <p style="color: GrayText; margin-left: 30px;"><i>Brookhaven National Laboratory issued a press release on a new result recently published by the PHENIX collaboration . . . (Jan 18, 2018)</i></p>
     <h4 style="color: white; "><a href="https://youtu.be/n-zSOfE0Ypk" style="color: rgb(123,164,221); font-weight: bold;" target="_blank">ACU NEXT Lab</a></h4>
     <p style="color: GrayText; margin-left: 30px;"><i>Detail video about Nuclear Energy eXperiment Testing Lab . . . (Nov 16, 2017)</i></p>
     <h4 style="color: white; "><a href="https://www.youtube.com/watch?v=YvHqLEqflws" style="color: rgb(123,164,221); font-weight: bold;" target="_blank">ACU and The NEXT Lab</a></h4>

@@ -214,9 +214,9 @@
     <Content Include="Content\code_files\csss_engine1\cs-ctrl-basic.eot" />
     <Content Include="Content\code_files\csss_engine1\cs-ctrl-basic.ttf" />
     <Content Include="Content\code_files\csss_engine1\cs-ctrl-basic.woff" />
-    <None Include="Properties\PublishProfiles\NEXTLAB-TEST - Web Deploy.pubxml">
-      <SubType>Designer</SubType>
-    </None>
+    <None Include="Properties\PublishProfiles\FolderProfile.pubxml" />
+    <None Include="Properties\PublishProfiles\NEXTLAB-TEST - Web Deploy.pubxml" />
+    <None Include="Properties\PublishProfiles\WebApplication920180202062048 - Web Deploy.pubxml" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="History.aspx" />
     <Content Include="Members.aspx" />

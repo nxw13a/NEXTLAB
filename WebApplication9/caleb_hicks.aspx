@@ -107,19 +107,24 @@ div.content {
   <li><a href="About">Mission</a></li>
   <li><a href="History">History</a></li>
     <li><a href="WHYACU">Why ACU?</a></li>
-  <li><a  href="Members">Members</a></li>
+  <li><a  href="Members">NEXT's Team</a></li>
   <!--<li><a href="#contact">Student</a></li>-->
   <li><i id="quote" style="font-size: 18px;  font-weight: bold; color: rgb(98,99,102); text-align: center;">"Finding global solutions to the world’s most critical needs" </i></li>
 </ul>
-<aside  id="sideCOL" style="background-color: rgb(98,99,102); border-radius: 10px; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">
+<aside id="sideCOL" class="leftColumn"  style="background-color: rgb(98,99,102); border-radius: 10px; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">
              <h3 style="color: white; text-align: left; margin-left: 10px;  font-size: 20px; font-weight: bold;">&rArr; MEDIA COVERAGE</h3>
                <ul class="home-side-touts" style="color: white; text-align: left; margin-right: 10px;">
-                   <li><a  href="https://www.youtube.com/watch?v=YvHqLEqflws" target="_blank" style="color: rgb(123,164,221);">ACU is about to start researching something interesting</a></li>
-                   <p style="opacity: 0.5; font-size: smaller"<i>Apr 25,2016</i></p>
-                   <li><a href="https://www.youtube.com/watch?v=jDqCpfVwdP4&t=2s" style="color: rgb(123,164,221);" target="_blank">Why making energy from dirt might save the world -- Rusty Towell </a></li>
-                   <p style="opacity: 0.5; font-size: smaller"><i>May 11, 2015</i></p>
+                   <li><a  href="http://acu.today/2018/01/25/next-lab-focuses-research-on-solving-global-problems/" target="_blank" style="color: rgb(123,164,221);">NEXT Lab focuses research on solving global problems</a></li>
+                   <p style="opacity: 0.5; font-size: smaller"<i>Jan 25,2018</i></p>
+                   <li><a  href="http://acu.today/2018/01/25/rusty-towell-innovative-scholar-down-to-earth-teacher/" target="_blank" style="color: rgb(123,164,221);">Rusty Towell: Innovative scholar, down-to-earth teacher</a></li>
+                   <p style="opacity: 0.5; font-size: smaller"<i>Jan 25,2018</i></p>
+                   <li><a href="http://www.acu.edu/news/physics-faculty-students-featured-in-science-journal.html" style="color: rgb(123,164,221);" target="_blank">Physics faculty, students featured in science journal </a></li>
+                   <p style="opacity: 0.5; font-size: smaller"><i>Jan 18, 2018</i></p>
+                   <li><a href="MediaCover" style="color: rgb(123,164,221);">more...</a></li>
+                  
                </ul>
                <hr />
+    <!--
                <h3 style="color: white; text-align: left; margin-left: 10px;  font-size: 20px; font-weight: bold;">&rArr; NEXT UPDATES</h3>
                 <ul class="home-side-touts" style="color: white; text-align: left; margin-right: 10px;">
                    <li><a href="MSTL" style="color: rgb(123,164,221);" >Status of Molten Salt Test Loop (MSTL) Assembly and Testing</a></li>
@@ -128,9 +133,9 @@ div.content {
                    <p style="opacity: 0.5; font-size: smaller"><i>July 2017</i></p>
                </ul>
                 <hr />
+    -->
                <h3 style="color: white; text-align: left; margin-left: 10px;  font-size: 20px; font-weight: bold;">&rArr; OUR CAMPUS</h3>
                <a href="http://www.acu.edu" target="_blank"><img src="newaculogo.jpg" style="display: block; padding: 15px 10px 15px 10px; margin: 0 auto; background-color: white; width: 70%; height: auto; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);"/></a>
-
 </aside>
 </div>
 <div class="column">
@@ -142,13 +147,24 @@ div.content {
              <p >
                 <i>Senior Physics student</i>
              </p>
+            <p>
+                Expected Graduation: <i>May 2018</i>
+            </p>
              <p>
                  Email: <a style="color: rgb(123,164,221); font-weight: bold;" href="mailto:crh14b@acu.edu">crh14b@acu.edu</a>
              </p>
           </div>
 
         <p>
-            <i>Senior Physics Major at ACU. He has research experience with SeaQuest at Fermilab and with NEXT. Works primarily on DAQ at NEXT and NIFFTE.</i>
+            <i>I am a senior physics major at ACU. I primarily work with Dr. Towell on NEXT though I have also worked at NIFFTE in Los Alamos and SeaQuest at Fermilab. </i>
+        </p>
+        <h3 style="color: rgb(98,99,102); font-weight: bold;">NEXT's Contribution</h3>
+        <p>
+            <i>I have primarily worked on the data acquisition system MIDAS used at NEXT. I have also contributed in small ways to a number of other areas including pump calibrations, transducer testing, etc. </i>
+        </p>
+        <h3 style="color: rgb(98,99,102); font-weight: bold;">What you like about NEXT? </h3>
+        <p>
+            <i>I like that students are involved in nearly every aspect of NEXT. Students work on everything from the flow loop design to the data analysis. </i>
         </p>
 </div>
 </div>
